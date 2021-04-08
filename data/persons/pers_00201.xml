@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pers_00201" xml:lang="de" role="composer">
+    <persName>
+        <forename sort="1">Wolfgang</forename>
+        <forename sort="2">Amadeus</forename>
+        <surname sort="3">Mozart</surname>
+    </persName>
+    <idno type="GND" xml:base="http://d-nb.info/gnd/">118584596</idno>
+</person>

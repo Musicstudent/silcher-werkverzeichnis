@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://purl.oclc.org/dsdl/schematron?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="work_00035">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <pubStmt>
+            <unpub/>
+         </pubStmt>
+         <sourceDesc>
+            <source/>
+         </sourceDesc>
+      </fileDesc>
+      <workList>
+         <work type="vocal collection">
+            <identifier type="opus" n="35"/>
+            <title type="main" xml:id="work_00035_title"/>
+            <composer>
+               <persName/>
+            </composer>
+            <arranger>
+               <persName/>
+            </arranger>
+            <editor/>
+            <creation/>
+            <history>
+               <eventList>
+                  <event type="publication">
+                     <date/>
+                  </event>
+               </eventList>
+            </history>
+            <langUsage>
+               <language/>
+            </langUsage>
+            <perfMedium>
+               <perfResList>
+                  <perfRes/>
+               </perfResList>
+            </perfMedium>
+            <notesStmt>
+               <annot/>
+            </notesStmt>
+            <expressionList>
+               <expression>
+                  <title corresp="#work_00035_title"/>
+               </expression>
+            </expressionList>
+            <componentList>
+               <work type="" n="001" corresp="#work_00035_001">
+                  <identifier type="no">1</identifier>
+                  <title xml:lang="de" corresp="#work_00035_001_title">
+                     <titlePart type="main">Der junge Harfner zog bewehrt</titlePart>
+                  </title>
+               </work>
+               <work type="" n="002" corresp="#work_00035_002">
+                  <identifier type="no">2</identifier>
+                  <title xml:lang="de" corresp="#work_00035_002_title">
+                     <titlePart type="main">Im Mai des Lebens</titlePart>
+                  </title>
+               </work>
+               <work type="" n="003" corresp="#work_00035_003">
+                  <identifier type="no">3</identifier>
+                  <title xml:lang="de" corresp="#work_00035_003_title">
+                     <titlePart type="main">O horch, der Abendglocken Klang</titlePart>
+                  </title>
+               </work>
+               <work type="" n="004" corresp="#work_00035_004">
+                  <identifier type="no">4</identifier>
+                  <title xml:lang="de" corresp="#work_00035_004_title">
+                     <titlePart type="main">Die Nachtigallen</titlePart>
+                  </title>
+               </work>
+               <work type="" n="005" corresp="#work_00035_005">
+                  <identifier type="no">5</identifier>
+                  <title xml:lang="de" corresp="#work_00035_005_title">
+                     <titlePart type="main">Leise späh’n, ob Liebchen wacht</titlePart>
+                  </title>
+               </work>
+               <work type="" n="006" corresp="#work_00035_006">
+                  <identifier type="no">6</identifier>
+                  <title xml:lang="de" corresp="#work_00035_006_title">
+                     <titlePart type="main">Seht, wie düstere Wolken</titlePart>
+                  </title>
+               </work>
+               <work type="" n="007" corresp="#work_00035_007">
+                  <identifier type="no">7</identifier>
+                  <title xml:lang="de" corresp="#work_00035_007_title">
+                     <titlePart type="main">Dem roten Röslein gleicht mein Lieb</titlePart>
+                  </title>
+               </work>
+               <work type="" n="008" corresp="#work_00035_008">
+                  <identifier type="no">8</identifier>
+                  <title xml:lang="de" corresp="#work_00035_008_title">
+                     <titlePart type="main">Gondellied</titlePart>
+                  </title>
+               </work>
+               <work type="" n="009" corresp="#work_00035_009">
+                  <identifier type="no">9</identifier>
+                  <title xml:lang="de" corresp="#work_00035_009_title">
+                     <titlePart type="main">Heimat</titlePart>
+                  </title>
+               </work>
+               <work type="" n="010" corresp="#work_00035_010">
+                  <identifier type="no">10</identifier>
+                  <title xml:lang="de" corresp="#work_00035_010_title">
+                     <titlePart type="main">Wild tobt der Sturm</titlePart>
+                  </title>
+               </work>
+            </componentList>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation/>
+      </manifestationList>
+   </meiHead>
+   <music>
+      <facsimile/>
+      <body>
+         <mdiv n="1" corresp="#work_00035_001"/>
+         <mdiv n="2" corresp="#work_00035_002"/>
+         <mdiv n="3" corresp="#work_00035_003"/>
+         <mdiv n="4" corresp="#work_00035_004"/>
+         <mdiv n="5" corresp="#work_00035_005"/>
+         <mdiv n="6" corresp="#work_00035_006"/>
+         <mdiv n="7" corresp="#work_00035_007"/>
+         <mdiv n="8" corresp="#work_00035_008"/>
+         <mdiv n="9" corresp="#work_00035_009"/>
+         <mdiv n="10" corresp="#work_00035_010"/>
+      </body>
+   </music>
+</mei>

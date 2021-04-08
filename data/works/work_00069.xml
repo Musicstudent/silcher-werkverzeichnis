@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://purl.oclc.org/dsdl/schematron?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="work_00069">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <pubStmt>
+            <unpub/>
+         </pubStmt>
+         <sourceDesc>
+            <source/>
+         </sourceDesc>
+      </fileDesc>
+      <workList>
+         <work type="vocal collection">
+            <identifier type="opus" n="69"/>
+            <title type="main" xml:id="work_00069_title"/>
+            <composer>
+               <persName/>
+            </composer>
+            <arranger>
+               <persName/>
+            </arranger>
+            <editor/>
+            <creation/>
+            <history>
+               <eventList>
+                  <event type="publication">
+                     <date/>
+                  </event>
+               </eventList>
+            </history>
+            <langUsage>
+               <language/>
+            </langUsage>
+            <perfMedium>
+               <perfResList>
+                  <perfRes/>
+               </perfResList>
+            </perfMedium>
+            <notesStmt>
+               <annot/>
+            </notesStmt>
+            <expressionList>
+               <expression>
+                  <title corresp="#work_00069_title"/>
+               </expression>
+            </expressionList>
+            <componentList>
+               <work type="" n="001" corresp="#work_00069_001">
+                  <identifier type="no">1</identifier>
+                  <title xml:lang="de" corresp="#work_00069_001_title">
+                     <titlePart type="main">So lach mal (vgl.)</titlePart>
+                  </title>
+               </work>
+               <work type="" n="002" corresp="#work_00069_002">
+                  <identifier type="no">2</identifier>
+                  <title xml:lang="de" corresp="#work_00069_002_title">
+                     <titlePart type="main">So lach doch mal! (vgl.)</titlePart>
+                  </title>
+               </work>
+               <work type="" n="003" corresp="#work_00069_003">
+                  <identifier type="no">3</identifier>
+                  <title xml:lang="de" corresp="#work_00069_003_title">
+                     <titlePart type="main">De junge Wettfru</titlePart>
+                  </title>
+               </work>
+               <work type="" n="004" corresp="#work_00069_004">
+                  <identifier type="no">4</identifier>
+                  <title xml:lang="de" corresp="#work_00069_004_title">
+                     <titlePart type="main">Hell int Finster schint de Sünn</titlePart>
+                  </title>
+               </work>
+               <work type="" n="005" corresp="#work_00069_005">
+                  <identifier type="no">5</identifier>
+                  <title xml:lang="de" corresp="#work_00069_005_title">
+                     <titlePart type="main">de Fischer</titlePart>
+                  </title>
+               </work>
+            </componentList>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation/>
+      </manifestationList>
+   </meiHead>
+   <music>
+      <facsimile/>
+      <body>
+         <mdiv n="1" corresp="#work_00069_001"/>
+         <mdiv n="2" corresp="#work_00069_002"/>
+         <mdiv n="3" corresp="#work_00069_003"/>
+         <mdiv n="4" corresp="#work_00069_004"/>
+         <mdiv n="5" corresp="#work_00069_005"/>
+      </body>
+   </music>
+</mei>

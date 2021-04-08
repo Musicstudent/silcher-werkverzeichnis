@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="work_00006">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <pubStmt>
+                <unpub/>
+            </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work type="vocal canon collection">
+                <identifier type="opus" n="6"/>
+                <title type="main" xml:id="work_00006_title">[12 Kanons]</title>
+                <composer>
+                    <persName auth="pers_00273"/>
+                </composer>
+                <arranger>
+                    <persName auth="pers_00273"/>
+                </arranger>
+                <editor>
+                    <persName/>
+                </editor>
+                <creation/>
+                <history>
+                    <eventList>
+                        <event type="publication">
+                            <date isodate="1825-00-00"/>
+                        </event>
+                    </eventList>
+                </history>
+                <langUsage>
+                    <language xml:id="de">Deutsch</language>
+                </langUsage>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes/>
+                    </perfResList>
+                </perfMedium>
+                <notesStmt>
+                    <annot/>
+                </notesStmt>
+                <expressionList>
+                    <expression n="1">
+                        <title corresp="#work_00006_title"/>
+                    </expression>
+                </expressionList>
+                <componentList>
+                    <work type="canon" n="001" corresp="#work_00006_001">
+                        <identifier type="no">1</identifier>
+                        <title xml:lang="de" corresp="#work_00006_001_title">
+                            <titlePart type="main">Morgenstund hat Gold im Mund</titlePart>
+                        </title>
+                    </work>
+                    <work type="canon" n="002" corresp="#work_00006_002">
+                        <identifier type="no">2</identifier>
+                        <title xml:lang="de" corresp="#work_00006_002_title">
+                            <titlePart type="main">Horch! Der Glocke Klang</titlePart>
+                        </title>
+                    </work>
+                    <work type="canon" n="003" corresp="#work_00006_003">
+                        <identifier type="no">3</identifier>
+                        <title xml:lang="de" corresp="#work_00006_003_title">
+                            <titlePart type="main">Nach der Arbeit ist gut ruhn</titlePart>
+                        </title>
+                    </work>
+                    <work type="canon" n="004" corresp="#work_00006_004">
+                        <identifier type="no">4</identifier>
+                        <title xml:lang="de" corresp="#work_00006_004_title">
+                            <titlePart type="main">Morgen, morgen, nur nicht heute</titlePart>
+                        </title>
+                    </work>
+                    <work type="canon" n="005" corresp="#work_00006_005">
+                        <identifier type="no">5</identifier>
+                        <title xml:lang="de" corresp="#work_00006_005_title">
+                            <titlePart type="main">Der Frühling kehrt wieder</titlePart>
+                        </title>
+                    </work>
+                    <work type="canon" n="006" corresp="#work_00006_006">
+                        <identifier type="no">6</identifier>
+                        <title xml:lang="de" corresp="#work_00006_006_title">
+                            <titlePart type="main">Gute Nacht!</titlePart>
+                        </title>
+                    </work>
+                    <work type="canon" n="007" corresp="#work_00006_007">
+                        <identifier type="no">7</identifier>
+                        <title xml:lang="de" corresp="#work_00006_007_title">
+                            <titlePart type="main">Wer Gutes tut, hat frohen Mut</titlePart>
+                        </title>
+                    </work>
+                    <work type="canon" n="008" corresp="#work_00006_008">
+                        <identifier type="no">8</identifier>
+                        <title xml:lang="de" corresp="#work_00006_008_title">
+                            <titlePart type="main">Wie schön ist’s im Freien</titlePart>
+                        </title>
+                    </work>
+                    <work type="canon" n="009" corresp="#work_00006_009">
+                        <identifier type="no">9</identifier>
+                        <title xml:lang="de" corresp="#work_00006_009_title">
+                            <titlePart type="main">Hoffnung! Hoffnung!</titlePart>
+                        </title>
+                    </work>
+                    <work type="canon" n="010" corresp="#work_00006_010">
+                        <identifier type="no">10</identifier>
+                        <title xml:lang="de" corresp="#work_00006_010_title">
+                            <titlePart type="main">Heilig, heilig ist das Band</titlePart>
+                        </title>
+                    </work>
+                    <work type="canon" n="011" corresp="#work_00006_011">
+                        <identifier type="no">11</identifier>
+                        <title xml:lang="de" corresp="#work_00006_011_title">
+                            <titlePart type="main">Zur Adventsfeier</titlePart>
+                        </title>
+                    </work>
+                    <work type="canon" n="012" corresp="#work_00006_012">
+                        <identifier type="no">12</identifier>
+                        <title xml:lang="de" corresp="#work_00006_012_title">
+                            <titlePart type="main">O wunderschön ist Gottes Erde</titlePart>
+                        </title>
+                    </work>
+                </componentList>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation/>
+        </manifestationList>
+    </meiHead>
+    <music>
+        <facsimile/>
+        <body>
+            <mdiv n="1" corresp="#work_00006_001"/>
+            <mdiv n="2" corresp="#work_00006_002"/>
+            <mdiv n="3" corresp="#work_00006_003"/>
+            <mdiv n="4" corresp="#work_00006_004"/>
+            <mdiv n="5" corresp="#work_00006_005"/>
+            <mdiv n="6" corresp="#work_00006_006"/>
+            <mdiv n="7" corresp="#work_00006_007"/>
+            <mdiv n="8" corresp="#work_00006_008"/>
+            <mdiv n="9" corresp="#work_00006_009"/>
+            <mdiv n="10" corresp="#work_00006_010"/>
+            <mdiv n="11" corresp="#work_00006_011"/>
+            <mdiv n="12" corresp="#work_00006_012"/>
+        </body>
+    </music>
+</mei>

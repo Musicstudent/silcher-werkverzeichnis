@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="work_00007_011">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <pubStmt>
+                <unpub/>
+            </pubStmt>
+            <sourceDesc>
+                <source>
+                    <bibl type="monogr">
+                        <ref target="bibl_0001"/>
+                        <biblScope from="95" to="95"/>
+                    </bibl>
+                </source>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work type="vocal male-choir">
+                <identifier type="opus" n="7"/>
+                <identifier type="number" n="11"/>
+                <title type="main">Die Deutschen vor Belgrad</title>
+                <title type="alternative">Prinz Eugenius vor Belgrad</title>
+                <composer>Volkslied</composer>
+                <arranger>
+                    <persName auth="pers_00273"/>
+                </arranger>
+                <lyricist>Volkslied</lyricist>
+                <incip>
+                    <incipText>
+                        <p>Prinz Eugen der edle Ritter</p>
+                    </incipText>
+                </incip>
+                <history>
+                    <eventList>
+                        <event type="creation">
+                            <date/>
+                        </event>
+                        <event type="publication">
+                            <date isodate="1826-00-00"/>
+                        </event>
+                    </eventList>
+                </history>
+                <langUsage>
+                    <language xml:id="de">Deutsch</language>
+                </langUsage>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes/>
+                    </perfResList>
+                </perfMedium>
+                <notesStmt>
+                    <annot/>
+                </notesStmt>
+                <expressionList>
+                    <expression>
+                        <title/>
+                    </expression>
+                </expressionList>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation n="1">
+                <itemList>
+                    <item target="#work_00007_item_01"/>
+                </itemList>
+                <biblList>
+                    <bibl>
+                        <ref target="src_0002"/>
+                        <biblScope unit="vol" n="1"/>
+                        <biblScope unit="page" n="11"/>
+                    </bibl>
+                </biblList>
+            </manifestation>
+        </manifestationList>
+    </meiHead>
+    <music>
+        <facsimile decls="#">
+            <surface n="1" label="tenor 1 [page 16]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00016/info.json"/>
+            </surface>
+            <surface n="2" label="tenor 1 [page 17]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00017/info.json"/>
+            </surface>
+            <surface n="3" label="tenor 2 [page 38]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00038/info.json"/>
+            </surface>
+            <surface n="4" label="tenor 2 [page 39]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00039/info.json"/>
+            </surface>
+            <surface n="5" label="bass 1 [page 60]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00060/info.json"/>
+            </surface>
+            <surface n="6" label="bass 1 [page 61]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00061/info.json"/>
+            </surface>
+            <surface n="7" label="bass 2 [page 82]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00082/info.json"/>
+            </surface>
+            <surface n="8" label="bass 2 [page 83]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00083/info.json"/>
+            </surface>
+        </facsimile>
+        <body>
+            <mdiv n="1" corresp="#work_00007_011"/>
+        </body>
+    </music>
+</mei>

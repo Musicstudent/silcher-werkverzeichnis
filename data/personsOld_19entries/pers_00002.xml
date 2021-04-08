@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pers_00002" xml:lang="de" role="lyricist">
+   <persName>
+      <forename sort="1" type="unused">Karl</forename>
+      <forename sort="2">Theodor</forename>
+      <surname sort="3">Körner</surname>
+   </persName>
+   <birth>
+      <date when="1791-09-23"/>
+      <placeName>
+         <settlement>Dresden</settlement>
+      </placeName>
+   </birth>
+   <death>
+      <date when="1813-08-26"/>
+      <placeName>
+         <geogName>Forst Rosenow</geogName>
+         <district type="municipality">Lützow</district>
+         <settlement>Gadebusch</settlement>
+      </placeName>
+   </death>
+   <sex value="M"/>
+   <nationality key="de"/>
+   <occupation>Textdichter</occupation>
+   <idno type="GND" xml:base="http://d-nb.info/gnd/">118713507</idno>
+   <idno type="MGG" xml:base="https://www.mgg-online.com/mgg/stable/">373669</idno>
+   <idno type="VIAF" xml:base="http://viaf.org/viaf/">51723180</idno>
+   <listBibl>
+      <bibl/>
+   </listBibl>
+</person>

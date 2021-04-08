@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pers_00005" xml:lang="de" role="composer lyricist">
+   <persName>
+      <forename sort="1">Heinrich</forename>
+      <surname sort="2">Albert</surname>
+   </persName>
+   <birth>
+      <date when="1604"/>
+      <placeName>
+         <settlement>Bad Lobenstein</settlement>
+      </placeName>
+   </birth>
+   <death>
+      <date when="1651"/>
+      <placeName>
+         <settlement>Königsberg</settlement>
+      </placeName>
+   </death>
+   <sex value="M"/>
+   <nationality key="DE"/>
+   <occupation>Komponist, Organist, Schriftsteller, Liederdichter</occupation>
+   <idno type="GND" xml:base="http://d-nb.info/gnd/">121418952</idno>
+   <listBibl>
+      <bibl/>
+   </listBibl>
+</person>

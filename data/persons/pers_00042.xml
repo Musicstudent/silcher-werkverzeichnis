@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pers_00042" xml:lang="de" role="composer">
+   <persName>
+      <forename sort="1">Johann</forename>
+      <surname sort="2">Crüger</surname>
+   </persName>
+   <idno type="GND" xml:base="http://d-nb.info/gnd/">118834967</idno>
+</person>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pers_00001" xml:lang="de" role="composer">
+   <persName>
+      <forename sort="1" type="unused">Philipp</forename>
+      <forename sort="2">Friedrich</forename>
+      <surname sort="3">Silcher</surname>
+   </persName>
+   <birth>
+      <date when="1789-06-27"/>
+      <placeName>
+         <settlement>Schnait</settlement>
+      </placeName>
+   </birth>
+   <death>
+      <date when="1860-08-26"/>
+      <placeName>
+         <settlement>Tübingen</settlement>
+      </placeName>
+   </death>
+   <sex value="M"/>
+   <nationality key="de"/>
+   <occupation>Komponist</occupation>
+   <idno type="GND" xml:base="http://d-nb.info/gnd/">118614339</idno>
+   <idno type="MGG" xml:base="https://www.mgg-online.com/mgg/stable/">12726</idno>
+   <idno type="VIAF" xml:base="http://viaf.org/viaf/">71579290</idno>
+   <listBibl>
+      <bibl/>
+   </listBibl>
+</person>

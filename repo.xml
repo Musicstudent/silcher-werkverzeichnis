@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Ein digitales Verzeichnis der Kompositionen und Bearbeitungen von Friedrich Silcher.</description>
+    <author>Jannik Franz</author>
+    <author>Jannik Franz</author>
+    <website/>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>silcherWerkverzeichnis</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+    <permissions user="admin" group="dba" mode="rw-rw-r--"/>
+<deployed>2020-12-03T14:39:51.096Z</deployed></meta>

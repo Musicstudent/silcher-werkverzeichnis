@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pers_00003" xml:lang="de" role="lyricist">
+    <persName>
+        <forename sort="1">Justinus</forename>
+        <forename sort="2" type="unused">Andreas</forename>
+        <forename sort="3" type="unused">Christian</forename>
+        <nameLink sort="4" type="unused">von</nameLink>
+        <surname sort="5">Kerner</surname>
+    </persName>
+    <birth>
+        <date when="1786-09-18"/>
+        <placeName>
+            <settlement>Ludwigsburg</settlement>
+        </placeName>
+    </birth>
+    <death>
+        <date when="1862-02-21"/>
+        <placeName>
+            <settlement>Weinsberg</settlement>
+        </placeName>
+    </death>
+    <sex value="M"/>
+    <nationality key="de"/>
+    <occupation>Textdichter</occupation>
+    <idno type="GND" xml:base="http://d-nb.info/gnd/">118561545</idno>
+    <idno type="VIAF" xml:base="http://viaf.org/viaf/">46858675</idno>
+    <listBibl>
+        <bibl/>
+    </listBibl>
+</person>

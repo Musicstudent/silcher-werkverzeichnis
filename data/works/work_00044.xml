@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://purl.oclc.org/dsdl/schematron?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="work_00044">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <pubStmt>
+            <unpub/>
+         </pubStmt>
+         <sourceDesc>
+            <source/>
+         </sourceDesc>
+      </fileDesc>
+      <workList>
+         <work type="vocal collection">
+            <identifier type="opus" n="44"/>
+            <title type="main" xml:id="work_00044_title"/>
+            <composer>
+               <persName/>
+            </composer>
+            <arranger>
+               <persName/>
+            </arranger>
+            <editor/>
+            <creation/>
+            <history>
+               <eventList>
+                  <event type="publication">
+                     <date/>
+                  </event>
+               </eventList>
+            </history>
+            <langUsage>
+               <language/>
+            </langUsage>
+            <perfMedium>
+               <perfResList>
+                  <perfRes/>
+               </perfResList>
+            </perfMedium>
+            <notesStmt>
+               <annot/>
+            </notesStmt>
+            <expressionList>
+               <expression>
+                  <title corresp="#work_00044_title"/>
+               </expression>
+            </expressionList>
+            <componentList>
+               <work type="" n="001" corresp="#work_00044_001">
+                  <identifier type="no">1</identifier>
+                  <title xml:lang="de" corresp="#work_00044_001_title">
+                     <titlePart type="main">Hochgesang</titlePart>
+                  </title>
+               </work>
+               <work type="" n="002" corresp="#work_00044_002">
+                  <identifier type="no">2</identifier>
+                  <title xml:lang="de" corresp="#work_00044_002_title">
+                     <titlePart type="main">Festlied</titlePart>
+                  </title>
+               </work>
+               <work type="" n="003" corresp="#work_00044_003">
+                  <identifier type="no">3</identifier>
+                  <title xml:lang="de" corresp="#work_00044_003_title">
+                     <titlePart type="main">In’s Freie</titlePart>
+                  </title>
+               </work>
+               <work type="" n="004" corresp="#work_00044_004">
+                  <identifier type="no">4</identifier>
+                  <title xml:lang="de" corresp="#work_00044_004_title">
+                     <titlePart type="main">Bundeszeichen</titlePart>
+                  </title>
+               </work>
+               <work type="" n="005" corresp="#work_00044_005">
+                  <identifier type="no">5</identifier>
+                  <title xml:lang="de" corresp="#work_00044_005_title">
+                     <titlePart type="main">Wanderlied</titlePart>
+                  </title>
+               </work>
+               <work type="" n="006" corresp="#work_00044_006">
+                  <identifier type="no">6</identifier>
+                  <title xml:lang="de" corresp="#work_00044_006_title">
+                     <titlePart type="main">O Turnerleben, o Turnermut</titlePart>
+                  </title>
+               </work>
+               <work type="" n="007" corresp="#work_00044_007">
+                  <identifier type="no">7</identifier>
+                  <title xml:lang="de" corresp="#work_00044_007_title">
+                     <titlePart type="main">Bundeslied</titlePart>
+                  </title>
+               </work>
+               <work type="" n="008" corresp="#work_00044_008">
+                  <identifier type="no">8</identifier>
+                  <title xml:lang="de" corresp="#work_00044_008_title">
+                     <titlePart type="main">Freiheit</titlePart>
+                  </title>
+               </work>
+               <work type="" n="009" corresp="#work_00044_009">
+                  <identifier type="no">9</identifier>
+                  <title xml:lang="de" corresp="#work_00044_009_title">
+                     <titlePart type="main">Der Rhein</titlePart>
+                  </title>
+               </work>
+               <work type="" n="010" corresp="#work_00044_010">
+                  <identifier type="no">10</identifier>
+                  <title xml:lang="de" corresp="#work_00044_010_title">
+                     <titlePart type="main">Mein Vaterland</titlePart>
+                  </title>
+               </work>
+               <work type="" n="011" corresp="#work_00044_011">
+                  <identifier type="no">11</identifier>
+                  <title xml:lang="de" corresp="#work_00044_011_title">
+                     <titlePart type="main">Trinklied im Frühling</titlePart>
+                  </title>
+               </work>
+               <work type="" n="012" corresp="#work_00044_012">
+                  <identifier type="no">12</identifier>
+                  <title xml:lang="de" corresp="#work_00044_012_title">
+                     <titlePart type="main">Gebet</titlePart>
+                  </title>
+               </work>
+            </componentList>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation/>
+      </manifestationList>
+   </meiHead>
+   <music>
+      <facsimile/>
+      <body>
+         <mdiv n="1" corresp="#work_00044_001"/>
+         <mdiv n="2" corresp="#work_00044_002"/>
+         <mdiv n="3" corresp="#work_00044_003"/>
+         <mdiv n="4" corresp="#work_00044_004"/>
+         <mdiv n="5" corresp="#work_00044_005"/>
+         <mdiv n="6" corresp="#work_00044_006"/>
+         <mdiv n="7" corresp="#work_00044_007"/>
+         <mdiv n="8" corresp="#work_00044_008"/>
+         <mdiv n="9" corresp="#work_00044_009"/>
+         <mdiv n="10" corresp="#work_00044_010"/>
+         <mdiv n="11" corresp="#work_00044_011"/>
+         <mdiv n="12" corresp="#work_00044_012"/>
+      </body>
+   </music>
+</mei>

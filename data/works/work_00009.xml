@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://purl.oclc.org/dsdl/schematron?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="work_00009">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <pubStmt>
+            <unpub/>
+         </pubStmt>
+         <sourceDesc>
+            <source/>
+         </sourceDesc>
+      </fileDesc>
+      <workList>
+         <work type="vocal collection">
+            <identifier type="opus" n="9"/>
+            <title type="main" xml:id="work_00009_title"/>
+            <composer>
+               <persName/>
+            </composer>
+            <arranger>
+               <persName/>
+            </arranger>
+            <editor/>
+            <creation/>
+            <history>
+               <eventList>
+                  <event type="publication">
+                     <date/>
+                  </event>
+               </eventList>
+            </history>
+            <langUsage>
+               <language/>
+            </langUsage>
+            <perfMedium>
+               <perfResList>
+                  <perfRes/>
+               </perfResList>
+            </perfMedium>
+            <notesStmt>
+               <annot/>
+            </notesStmt>
+            <expressionList>
+               <expression>
+                  <title corresp="#work_00009_title"/>
+               </expression>
+            </expressionList>
+            <componentList>
+               <work type="" n="001" corresp="#work_00009_001">
+                  <identifier type="no">1</identifier>
+                  <title xml:lang="de" corresp="#work_00009_001_title">
+                     <titlePart type="main">Zur Adventsfeier</titlePart>
+                  </title>
+               </work>
+               <work type="" n="002" corresp="#work_00009_002">
+                  <identifier type="no">2</identifier>
+                  <title xml:lang="de" corresp="#work_00009_002_title">
+                     <titlePart type="main">Bei der Feier des heiligen Abendmahls</titlePart>
+                  </title>
+               </work>
+               <work type="" n="003" corresp="#work_00009_003">
+                  <identifier type="no">3</identifier>
+                  <title xml:lang="de" corresp="#work_00009_003_title">
+                     <titlePart type="main">Zum Christfest</titlePart>
+                  </title>
+               </work>
+               <work type="" n="004" corresp="#work_00009_004">
+                  <identifier type="no">4</identifier>
+                  <title xml:lang="de" corresp="#work_00009_004_title">
+                     <titlePart type="main">Allgemeiner Hymnus</titlePart>
+                  </title>
+               </work>
+               <work type="" n="005" corresp="#work_00009_005">
+                  <identifier type="no">5</identifier>
+                  <title xml:lang="de" corresp="#work_00009_005_title">
+                     <titlePart type="main">Am Todestag des Erlösers</titlePart>
+                  </title>
+               </work>
+               <work type="" n="006" corresp="#work_00009_006">
+                  <identifier type="no">6</identifier>
+                  <title xml:lang="de" corresp="#work_00009_006_title">
+                     <titlePart type="main">Bei der Feier des heiligen Abendmahls</titlePart>
+                  </title>
+               </work>
+            </componentList>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation/>
+      </manifestationList>
+   </meiHead>
+   <music>
+      <facsimile/>
+      <body>
+         <mdiv n="1" corresp="#work_00009_001"/>
+         <mdiv n="2" corresp="#work_00009_002"/>
+         <mdiv n="3" corresp="#work_00009_003"/>
+         <mdiv n="4" corresp="#work_00009_004"/>
+         <mdiv n="5" corresp="#work_00009_005"/>
+         <mdiv n="6" corresp="#work_00009_006"/>
+      </body>
+   </music>
+</mei>

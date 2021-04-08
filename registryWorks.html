@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/view-database.html" data-template-at="register">
+    <div class="column">
+        <div class="page-header">
+            <h1>Werkeverzeichnis</h1>
+            <p data-template="app:countWorks"/>
+        </div>
+        <hr/>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#collapseOne">Filtereinstellungen</a>
+                </div>
+                <div id="collapseOne" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <form data-template="app:showFilter"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container fulltextSearch">
+            <table class="table mt-4">
+                <thead>
+                    <tr>
+                        <th scope="col">Volltextsuche</th>
+                    </tr>
+                </thead>
+                <tbody data-template="app:searchFulltext"/>
+            </table>
+        </div> -->
+        <div class="container">
+            <table class="table mt-4">
+                <thead class="table-light">
+                    <tr>
+                        <th scope="col" class="sort-item">
+                            <div class="d-flex item-content" id="sort-number">
+                                <span class="sort-label flex-grow-1">Werknummer</span>
+                                <span class="sort-icon">▼</span>
+                            </div>
+                        </th>
+                        <th scope="col" class="sort-item">
+                            <div class="d-flex item-content" id="sort-title">
+                                <span class="sort-label flex-grow-1">Titel</span>
+                                <span class="sort-icon">▼</span>
+                            </div>
+                        </th>
+                        <th scope="col" class="sort-item">
+                            <div class="d-flex item-content" id="sort-id">
+                                <span class="sort-label flex-grow-1">Interne ID</span>
+                                <span class="sort-icon">▼</span>
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody data-template="app:showWorks" id="searchResults"/>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/silcherWerkverzeichnis/resources" version="1" owner="admin" group="dba" mode="775" created="2020-12-03T14:39:50.79Z">
+    <acl entries="0" version="1"/>
+    <subcollection name="images" filename="images"/>
+    <subcollection name="css" filename="css"/>
+    <subcollection name="js" filename="js"/>
+    <subcollection name="xslt" filename="xslt"/>
+    <subcollection name="viewer" filename="viewer"/>
+</collection>

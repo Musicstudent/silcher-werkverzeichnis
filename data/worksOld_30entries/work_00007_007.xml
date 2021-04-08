@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="work_00007_007">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <pubStmt>
+                <unpub/>
+            </pubStmt>
+            <sourceDesc>
+                <source>
+                    <bibl type="monogr">
+                        <ref target="bibl_0001"/>
+                        <biblScope from="124" to="124"/>
+                    </bibl>
+                </source>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work type="vocal male-choir">
+                <identifier type="opus" n="7"/>
+                <identifier type="number" n="7"/>
+                <title type="main">Flug der Liebe</title>
+                <composer>
+                    <persName>L. Reichardt</persName>
+                </composer>
+                <arranger>
+                    <persName auth="pers_00273"/>
+                </arranger>
+                <lyricist>Volkslied</lyricist>
+                <incip>
+                    <incipText>
+                        <p>Wenn ich ein Vöglein wär</p>
+                    </incipText>
+                </incip>
+                <history>
+                    <eventList>
+                        <event type="creation">
+                            <date/>
+                        </event>
+                        <event type="publication">
+                            <date isodate="1826-00-00"/>
+                        </event>
+                    </eventList>
+                </history>
+                <langUsage>
+                    <language xml:id="de">Deutsch</language>
+                </langUsage>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes/>
+                    </perfResList>
+                </perfMedium>
+                <notesStmt>
+                    <annot/>
+                </notesStmt>
+                <expressionList>
+                    <expression>
+                        <title/>
+                    </expression>
+                </expressionList>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation n="1">
+                <itemList>
+                    <item target="#work_00007_item_01"/>
+                </itemList>
+                <biblList>
+                    <bibl>
+                        <ref target="src_0002"/>
+                        <biblScope unit="vol" n="1"/>
+                        <biblScope unit="page" n="7"/>
+                    </bibl>
+                </biblList>
+            </manifestation>
+        </manifestationList>
+    </meiHead>
+    <music>
+        <facsimile decls="#">
+            <surface n="1" label="tenor 1 [page 11]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00011/info.json"/>
+            </surface>
+            <surface n="2" label="tenor 2 [page 33]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00033/info.json"/>
+            </surface>
+            <surface n="3" label="bass 1 [page 55]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00055/info.json"/>
+            </surface>
+            <surface n="4" label="bass 2 [page 77]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00077/info.json"/>
+            </surface>
+        </facsimile>
+        <body>
+            <mdiv n="1" corresp="#work_00007_007"/>
+        </body>
+    </music>
+</mei>

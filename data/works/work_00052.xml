@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://purl.oclc.org/dsdl/schematron?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="work_00052">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <pubStmt>
+            <unpub/>
+         </pubStmt>
+         <sourceDesc>
+            <source/>
+         </sourceDesc>
+      </fileDesc>
+      <workList>
+         <work type="vocal collection">
+            <identifier type="opus" n="52"/>
+            <title type="main" xml:id="work_00052_title"/>
+            <composer>
+               <persName/>
+            </composer>
+            <arranger>
+               <persName/>
+            </arranger>
+            <editor/>
+            <creation/>
+            <history>
+               <eventList>
+                  <event type="publication">
+                     <date/>
+                  </event>
+               </eventList>
+            </history>
+            <langUsage>
+               <language/>
+            </langUsage>
+            <perfMedium>
+               <perfResList>
+                  <perfRes/>
+               </perfResList>
+            </perfMedium>
+            <notesStmt>
+               <annot/>
+            </notesStmt>
+            <expressionList>
+               <expression>
+                  <title corresp="#work_00052_title"/>
+               </expression>
+            </expressionList>
+            <componentList>
+               <work type="" n="001" corresp="#work_00052_001">
+                  <identifier type="no">1</identifier>
+                  <title xml:lang="de" corresp="#work_00052_001_title">
+                     <titlePart type="main">Wehrmannslust</titlePart>
+                  </title>
+               </work>
+               <work type="" n="002" corresp="#work_00052_002">
+                  <identifier type="no">2</identifier>
+                  <title xml:lang="de" corresp="#work_00052_002_title">
+                     <titlePart type="main">Frisch auf zur Schlacht</titlePart>
+                  </title>
+               </work>
+               <work type="" n="003" corresp="#work_00052_003">
+                  <identifier type="no">3</identifier>
+                  <title xml:lang="de" corresp="#work_00052_003_title">
+                     <titlePart type="main">Schützenlied</titlePart>
+                  </title>
+               </work>
+               <work type="" n="004" corresp="#work_00052_004">
+                  <identifier type="no">4</identifier>
+                  <title xml:lang="de" corresp="#work_00052_004_title">
+                     <titlePart type="main">Soldatenmut</titlePart>
+                  </title>
+               </work>
+               <work type="" n="005" corresp="#work_00052_005">
+                  <identifier type="no">5</identifier>
+                  <title xml:lang="de" corresp="#work_00052_005_title">
+                     <titlePart type="main">Morgengruß an das Schlachtfeld</titlePart>
+                  </title>
+               </work>
+               <work type="" n="006" corresp="#work_00052_006">
+                  <identifier type="no">6</identifier>
+                  <title xml:lang="de" corresp="#work_00052_006_title">
+                     <titlePart type="main">Das schönste Loos</titlePart>
+                  </title>
+               </work>
+            </componentList>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation/>
+      </manifestationList>
+   </meiHead>
+   <music>
+      <facsimile/>
+      <body>
+         <mdiv n="1" corresp="#work_00052_001"/>
+         <mdiv n="2" corresp="#work_00052_002"/>
+         <mdiv n="3" corresp="#work_00052_003"/>
+         <mdiv n="4" corresp="#work_00052_004"/>
+         <mdiv n="5" corresp="#work_00052_005"/>
+         <mdiv n="6" corresp="#work_00052_006"/>
+      </body>
+   </music>
+</mei>

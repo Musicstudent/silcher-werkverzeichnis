@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pers_00007" xml:lang="de" role="lyricist">
+   <persName>
+      <forename sort="1">Albrecht</forename>
+      <surname sort="2">Adam</surname>
+   </persName>
+   <birth>
+      <date/>
+      <placeName>
+         <settlement/>
+      </placeName>
+   </birth>
+   <death>
+      <date/>
+      <placeName>
+         <settlement/>
+      </placeName>
+   </death>
+   <sex value="M"/>
+   <nationality key="de"/>
+   <occupation>Textdichter</occupation>
+   <listBibl>
+      <bibl>
+         <ref type="URI" target="https://hymnary.org/person/Adam_A?tab=texts"/>
+      </bibl>
+   </listBibl>
+</person>

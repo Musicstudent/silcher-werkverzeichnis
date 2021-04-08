@@ -1,0 +1,12 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/silcherWerkverzeichnis/resources/js" version="1" owner="admin" group="dba" mode="755" created="2020-12-03T17:08:46.437Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="script.js" skip="no" owner="admin" group="dba" mode="644" created="2020-12-26T15:36:53.358Z" modified="2021-04-07T20:59:16.25Z" filename="script.js" mimetype="application/javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Leaflet.MakiMarkers.js" skip="no" owner="admin" group="dba" mode="644" created="2020-12-26T22:15:46.406Z" modified="2020-12-26T22:15:46.406Z" filename="Leaflet.MakiMarkers.js" mimetype="application/javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="viewer.js" skip="no" owner="admin" group="dba" mode="644" created="2021-03-20T12:02:00.218Z" modified="2021-04-07T15:52:20.488Z" filename="viewer.js" mimetype="application/javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

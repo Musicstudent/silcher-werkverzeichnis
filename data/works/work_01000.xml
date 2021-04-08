@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="work_01000">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <pubStmt>
+                <unpub/>
+            </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work type="vocal song collection">
+                <identifier type="opus">WoO</identifier>
+                <title type="main" xml:id="work_01000_title">Melodien aus Beethovens Sonaten und Sinfonien</title>
+                <title type="desc">Erstes Heft</title>
+                <composer>
+                    <persName auth="pers_00017"/>
+                </composer>
+                <arranger>
+                    <persName auth="pers_00273"/>
+                </arranger>
+                <editor>
+                    <persName>G. A. Zumsteeg</persName>
+                    <settlement>Stuttgart</settlement>
+                </editor>
+                <creation>
+                    <dedication>
+                        <dedicatee>Fräulein <persName auth="pers_00355">Emilie Zumsteeg</persName>
+                        </dedicatee> verehrungsvoll gewidmet</dedication>
+                </creation>
+                <history>
+                    <eventList>
+                        <event type="publication">
+                            <date isodate="1830-00-00" cert="low"/>
+                        </event>
+                    </eventList>
+                </history>
+                <langUsage>
+                    <language xml:id="de">Deutsch</language>
+                </langUsage>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes n="1" type="choice">
+                            <perfRes codedval="va">Sopran</perfRes>
+                            <perfRes codedval="vd">Tenor</perfRes>
+                        </perfRes>
+                        <perfRes n="2" codedval="ka">Pianoforte</perfRes>
+                    </perfResList>
+                </perfMedium>
+                <notesStmt>
+                    <annot/>
+                </notesStmt>
+                <expressionList>
+                    <expression n="1">
+                        <title corresp="#work_01000_title"/>
+                    </expression>
+                </expressionList>
+                <componentList>
+                    <work type="song" n="001" corresp="#work_01000_001">
+                        <identifier type="no">1</identifier>
+                        <title xml:lang="de" corresp="#work_01000_001_title">
+                            <titlePart type="main">Das Auge der Geliebten</titlePart>
+                        </title>
+                    </work>
+                    <work type="song" n="002" corresp="#work_01000_002">
+                        <identifier type="no">2</identifier>
+                        <title xml:lang="de" corresp="#work_01000_002_title">
+                            <titlePart type="main">An die Nacht</titlePart>
+                        </title>
+                    </work>
+                    <work type="song" n="003" corresp="#work_01000_003">
+                        <identifier type="no">3</identifier>
+                        <title xml:lang="de" corresp="#work_01000_003_title">
+                            <titlePart type="main">Sehnsucht</titlePart>
+                        </title>
+                    </work>
+                    <work type="song" n="004" corresp="#work_01000_004">
+                        <identifier type="no">4</identifier>
+                        <title xml:lang="de" corresp="#work_01000_004_title">
+                            <titlePart type="main">Wiedersehen</titlePart>
+                        </title>
+                    </work>
+                </componentList>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation n="1">
+                <itemList>
+                    <item label="BSB" xml:id="work_01000_item_01">
+                        <physLoc>
+                            <repository>
+                                <corpName>Bayerische Staatsbibliothek</corpName>
+                                <settlement>München</settlement>
+                            </repository>
+                        </physLoc>
+                        <identifier type="shelfmark">4 Mus.pr. 298 a-1</identifier>
+                        <identifier type="urn" xml:base="http://mdz-nbn-resolving.de/">urn:nbn:de:bvb:12-bsb11142894-4</identifier>
+                    </item>
+                </itemList>
+            </manifestation>
+        </manifestationList>
+    </meiHead>
+    <music>
+        <facsimile decls="#work_01000_item_01" class="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11142894/manifest">
+            <surface n="1" label="frontpage recto [page 1]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11142894_00001/info.json"/>
+            </surface>
+            <surface n="2" label="frontpage verso [page 2]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11142894_00002/info.json"/>
+            </surface>
+            <surface n="3" label="page 3" startid="#work_01000_001">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11142894_00003/info.json"/>
+            </surface>
+            <surface n="4" label="page 4" startid="#work_01000_002">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11142894_00004/info.json"/>
+            </surface>
+            <surface n="5" label="page 5">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11142894_00005/info.json"/>
+            </surface>
+            <surface n="6" label="page 6" startid="#work_01000_003">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11142894_00006/info.json"/>
+            </surface>
+            <surface n="7" label="page 7">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11142894_00007/info.json"/>
+            </surface>
+            <surface n="8" label="page 8" startid="#work_01000_004">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11142894_00008/info.json"/>
+            </surface>
+            <surface n="9" label="page 9">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11142894_00009/info.json"/>
+            </surface>
+            <surface n="10" label="empty [page 10]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11142894_00010/info.json"/>
+            </surface>
+        </facsimile>
+        <body>
+            <mdiv n="1" corresp="#work_01000_001"/>
+            <mdiv n="2" corresp="#work_01000_002"/>
+            <mdiv n="3" corresp="#work_01000_003"/>
+            <mdiv n="4" corresp="#work_01000_004"/>
+        </body>
+    </music>
+</mei>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pers_00012" xml:lang="de" role="lyricist">
+   <persName>
+        <forename>G.</forename>
+        <surname>Forster</surname>
+   </persName>
+   <birth>
+      <date/>
+      <placeName>
+         <settlement/>
+      </placeName>
+   </birth>
+   <death>
+      <date/>
+      <placeName>
+         <settlement/>
+      </placeName>
+   </death>
+   <sex/>
+   <nationality/>
+   <occupation>Textdichter</occupation>
+   <listBibl>
+      <bibl/>
+   </listBibl>
+</person>

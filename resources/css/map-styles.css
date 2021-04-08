@@ -1,0 +1,26 @@
+/* Styles für die Leaflet-Map in registryPlaces.html */
+#map {
+  height: 600px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+    font-size: 0.9rem;
+    text-align: center;
+}
+.legend {
+    font-size: 1rem;
+    color: #555;
+    background-color: white;
+    padding: 10px;
+}
+.leaflet-right .leaflet-control {
+    margin: 0px;
+}
+.legend i {
+    width: 1.2rem;
+    height: 1.2rem;
+    float: left;
+    margin-right: 1rem;
+    opacity: 0.7;
+}

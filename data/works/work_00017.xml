@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://purl.oclc.org/dsdl/schematron?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="work_00017">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <pubStmt>
+            <unpub/>
+         </pubStmt>
+         <sourceDesc>
+            <source/>
+         </sourceDesc>
+      </fileDesc>
+      <workList>
+         <work type="vocal collection">
+            <identifier type="opus" n="17"/>
+            <title type="main" xml:id="work_00017_title"/>
+            <composer>
+               <persName/>
+            </composer>
+            <arranger>
+               <persName/>
+            </arranger>
+            <editor/>
+            <creation/>
+            <history>
+               <eventList>
+                  <event type="publication">
+                     <date/>
+                  </event>
+               </eventList>
+            </history>
+            <langUsage>
+               <language/>
+            </langUsage>
+            <perfMedium>
+               <perfResList>
+                  <perfRes/>
+               </perfResList>
+            </perfMedium>
+            <notesStmt>
+               <annot/>
+            </notesStmt>
+            <expressionList>
+               <expression>
+                  <title corresp="#work_00017_title"/>
+               </expression>
+            </expressionList>
+            <componentList>
+               <work type="" n="001" corresp="#work_00017_001">
+                  <identifier type="no">1</identifier>
+                  <title xml:lang="de" corresp="#work_00017_001_title">
+                     <titlePart type="main">Sieh, der Himmel strahlet hell</titlePart>
+                  </title>
+               </work>
+               <work type="" n="002" corresp="#work_00017_002">
+                  <identifier type="no">2</identifier>
+                  <title xml:lang="de" corresp="#work_00017_002_title">
+                     <titlePart type="main">Wie der Himmel strahlet hell und rot</titlePart>
+                  </title>
+               </work>
+               <work type="" n="003" corresp="#work_00017_003">
+                  <identifier type="no">3</identifier>
+                  <title xml:lang="de" corresp="#work_00017_003_title">
+                     <titlePart type="main">Das Lamm auf der Weide</titlePart>
+                  </title>
+               </work>
+               <work type="" n="004" corresp="#work_00017_004">
+                  <identifier type="no">4</identifier>
+                  <title xml:lang="de" corresp="#work_00017_004_title">
+                     <titlePart type="main">Der Hirt auf dem Felde</titlePart>
+                  </title>
+               </work>
+               <work type="" n="005" corresp="#work_00017_005">
+                  <identifier type="no">5</identifier>
+                  <title xml:lang="de" corresp="#work_00017_005_title">
+                     <titlePart type="main">Es blühen drei Blümchen gar hold und schön</titlePart>
+                  </title>
+               </work>
+               <work type="" n="006" corresp="#work_00017_006">
+                  <identifier type="no">6</identifier>
+                  <title xml:lang="de" corresp="#work_00017_006_title">
+                     <titlePart type="main">Sag, was sollen diese Tränen</titlePart>
+                  </title>
+               </work>
+               <work type="" n="007" corresp="#work_00017_007">
+                  <identifier type="no">7</identifier>
+                  <title xml:lang="de" corresp="#work_00017_007_title">
+                     <titlePart type="main">Wie so schön die Blumen blühen</titlePart>
+                  </title>
+               </work>
+               <work type="" n="008" corresp="#work_00017_008">
+                  <identifier type="no">8</identifier>
+                  <title xml:lang="de" corresp="#work_00017_008_title">
+                     <titlePart type="main">Ich weiß mir ein Liedlein so hübsch und fein</titlePart>
+                  </title>
+               </work>
+               <work type="" n="009" corresp="#work_00017_009">
+                  <identifier type="no">9</identifier>
+                  <title xml:lang="de" corresp="#work_00017_009_title">
+                     <titlePart type="main">Das Lied von der Kirsche</titlePart>
+                  </title>
+               </work>
+               <work type="" n="010" corresp="#work_00017_010">
+                  <identifier type="no">10</identifier>
+                  <title xml:lang="de" corresp="#work_00017_010_title">
+                     <titlePart type="main">Ach Gott wie weh tut das Scheiden</titlePart>
+                  </title>
+               </work>
+               <work type="" n="011" corresp="#work_00017_011">
+                  <identifier type="no">11</identifier>
+                  <title xml:lang="de" corresp="#work_00017_011_title">
+                     <titlePart type="main">Es spielte ein Knäblein im blumigen Klee</titlePart>
+                  </title>
+               </work>
+               <work type="" n="012" corresp="#work_00017_012">
+                  <identifier type="no">12</identifier>
+                  <title xml:lang="de" corresp="#work_00017_012_title">
+                     <titlePart type="main">Kinderlied I</titlePart>
+                  </title>
+               </work>
+               <work type="" n="013" corresp="#work_00017_013">
+                  <identifier type="no">13</identifier>
+                  <title xml:lang="de" corresp="#work_00017_013_title">
+                     <titlePart type="main">Die Wachtel dir ruft mit munterem Schlag</titlePart>
+                  </title>
+               </work>
+               <work type="" n="014" corresp="#work_00017_014">
+                  <identifier type="no">14</identifier>
+                  <title xml:lang="de" corresp="#work_00017_014_title">
+                     <titlePart type="main">Am Montag fangt die Woche an</titlePart>
+                  </title>
+               </work>
+               <work type="" n="015" corresp="#work_00017_015">
+                  <identifier type="no">15</identifier>
+                  <title xml:lang="de" corresp="#work_00017_015_title">
+                     <titlePart type="main">Das Wächtelein rufet mit munterem Schlag</titlePart>
+                  </title>
+               </work>
+               <work type="" n="016" corresp="#work_00017_016">
+                  <identifier type="no">16</identifier>
+                  <title xml:lang="de" corresp="#work_00017_016_title">
+                     <titlePart type="main">Einem Dornpfad gleicht das Leben</titlePart>
+                  </title>
+               </work>
+               <work type="" n="017" corresp="#work_00017_017">
+                  <identifier type="no">17</identifier>
+                  <title xml:lang="de" corresp="#work_00017_017_title">
+                     <titlePart type="main">Es blühen drei Blümchen gar hold und schön</titlePart>
+                  </title>
+               </work>
+               <work type="" n="018" corresp="#work_00017_018">
+                  <identifier type="no">18</identifier>
+                  <title xml:lang="de" corresp="#work_00017_018_title">
+                     <titlePart type="main">Voller Sorgen ist mein Leben</titlePart>
+                  </title>
+               </work>
+               <work type="" n="019" corresp="#work_00017_019">
+                  <identifier type="no">19</identifier>
+                  <title xml:lang="de" corresp="#work_00017_019_title">
+                     <titlePart type="main">Dankt dem Herrn für alle Freuden</titlePart>
+                  </title>
+               </work>
+               <work type="" n="020" corresp="#work_00017_020">
+                  <identifier type="no">20</identifier>
+                  <title xml:lang="de" corresp="#work_00017_020_title">
+                     <titlePart type="main">Duettino</titlePart>
+                  </title>
+               </work>
+               <work type="" n="021" corresp="#work_00017_021">
+                  <identifier type="no">21</identifier>
+                  <title xml:lang="de" corresp="#work_00017_021_title">
+                     <titlePart type="main">In seiner Pracht grüßt uns der Lenz</titlePart>
+                  </title>
+               </work>
+               <work type="" n="022" corresp="#work_00017_022">
+                  <identifier type="no">22</identifier>
+                  <title xml:lang="de" corresp="#work_00017_022_title">
+                     <titlePart type="main">Das liebliche Veilchen bescheiden blau</titlePart>
+                  </title>
+               </work>
+               <work type="" n="023" corresp="#work_00017_023">
+                  <identifier type="no">23</identifier>
+                  <title xml:lang="de" corresp="#work_00017_023_title">
+                     <titlePart type="main">Es blühen drei Blümchen gar hold und schön</titlePart>
+                  </title>
+               </work>
+               <work type="" n="024" corresp="#work_00017_024">
+                  <identifier type="no">24</identifier>
+                  <title xml:lang="de" corresp="#work_00017_024_title">
+                     <titlePart type="main">Ländlicher Marsch G-Dur </titlePart>
+                  </title>
+               </work>
+               <work type="" n="025" corresp="#work_00017_025">
+                  <identifier type="no">25</identifier>
+                  <title xml:lang="de" corresp="#work_00017_025_title">
+                     <titlePart type="main">Gottes Güte niemals wankt</titlePart>
+                  </title>
+               </work>
+               <work type="" n="026" corresp="#work_00017_026">
+                  <identifier type="no">26</identifier>
+                  <title xml:lang="de" corresp="#work_00017_026_title">
+                     <titlePart type="main">Schön nach den finstern Schatten der Nacht</titlePart>
+                  </title>
+               </work>
+               <work type="" n="027" corresp="#work_00017_027">
+                  <identifier type="no">27</identifier>
+                  <title xml:lang="de" corresp="#work_00017_027_title">
+                     <titlePart type="main">Ländlicher Marsch G-Dur</titlePart>
+                  </title>
+               </work>
+               <work type="" n="028" corresp="#work_00017_028">
+                  <identifier type="no">28</identifier>
+                  <title xml:lang="de" corresp="#work_00017_028_title">
+                     <titlePart type="main">Ouvertüre (D-Dur)</titlePart>
+                  </title>
+               </work>
+            </componentList>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation/>
+      </manifestationList>
+   </meiHead>
+   <music>
+      <facsimile/>
+      <body>
+         <mdiv n="1" corresp="#work_00017_001"/>
+         <mdiv n="2" corresp="#work_00017_002"/>
+         <mdiv n="3" corresp="#work_00017_003"/>
+         <mdiv n="4" corresp="#work_00017_004"/>
+         <mdiv n="5" corresp="#work_00017_005"/>
+         <mdiv n="6" corresp="#work_00017_006"/>
+         <mdiv n="7" corresp="#work_00017_007"/>
+         <mdiv n="8" corresp="#work_00017_008"/>
+         <mdiv n="9" corresp="#work_00017_009"/>
+         <mdiv n="10" corresp="#work_00017_010"/>
+         <mdiv n="11" corresp="#work_00017_011"/>
+         <mdiv n="12" corresp="#work_00017_012"/>
+         <mdiv n="13" corresp="#work_00017_013"/>
+         <mdiv n="14" corresp="#work_00017_014"/>
+         <mdiv n="15" corresp="#work_00017_015"/>
+         <mdiv n="16" corresp="#work_00017_016"/>
+         <mdiv n="17" corresp="#work_00017_017"/>
+         <mdiv n="18" corresp="#work_00017_018"/>
+         <mdiv n="19" corresp="#work_00017_019"/>
+         <mdiv n="20" corresp="#work_00017_020"/>
+         <mdiv n="21" corresp="#work_00017_021"/>
+         <mdiv n="22" corresp="#work_00017_022"/>
+         <mdiv n="23" corresp="#work_00017_023"/>
+         <mdiv n="24" corresp="#work_00017_024"/>
+         <mdiv n="25" corresp="#work_00017_025"/>
+         <mdiv n="26" corresp="#work_00017_026"/>
+         <mdiv n="27" corresp="#work_00017_027"/>
+         <mdiv n="28" corresp="#work_00017_028"/>
+      </body>
+   </music>
+</mei>

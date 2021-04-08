@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://purl.oclc.org/dsdl/schematron?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="work_00058">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <pubStmt>
+            <unpub/>
+         </pubStmt>
+         <sourceDesc>
+            <source/>
+         </sourceDesc>
+      </fileDesc>
+      <workList>
+         <work type="vocal collection">
+            <identifier type="opus" n="58"/>
+            <title type="main" xml:id="work_00058_title"/>
+            <composer>
+               <persName/>
+            </composer>
+            <arranger>
+               <persName/>
+            </arranger>
+            <editor/>
+            <creation/>
+            <history>
+               <eventList>
+                  <event type="publication">
+                     <date/>
+                  </event>
+               </eventList>
+            </history>
+            <langUsage>
+               <language/>
+            </langUsage>
+            <perfMedium>
+               <perfResList>
+                  <perfRes/>
+               </perfResList>
+            </perfMedium>
+            <notesStmt>
+               <annot/>
+            </notesStmt>
+            <expressionList>
+               <expression>
+                  <title corresp="#work_00058_title"/>
+               </expression>
+            </expressionList>
+            <componentList>
+               <work type="" n="001" corresp="#work_00058_001">
+                  <identifier type="no">1</identifier>
+                  <title xml:lang="de" corresp="#work_00058_001_title">
+                     <titlePart type="main">Schwimm hin, Ringlein</titlePart>
+                  </title>
+               </work>
+               <work type="" n="002" corresp="#work_00058_002">
+                  <identifier type="no">2</identifier>
+                  <title xml:lang="de" corresp="#work_00058_002_title">
+                     <titlePart type="main">Wohin mit der Freud</titlePart>
+                  </title>
+               </work>
+               <work type="" n="003" corresp="#work_00058_003">
+                  <identifier type="no">3</identifier>
+                  <title xml:lang="de" corresp="#work_00058_003_title">
+                     <titlePart type="main">Sehnsucht</titlePart>
+                  </title>
+               </work>
+               <work type="" n="004" corresp="#work_00058_004">
+                  <identifier type="no">4</identifier>
+                  <title xml:lang="de" corresp="#work_00058_004_title">
+                     <titlePart type="main">Heimlicher Liebe Pein</titlePart>
+                  </title>
+               </work>
+               <work type="" n="005" corresp="#work_00058_005">
+                  <identifier type="no">5</identifier>
+                  <title xml:lang="de" corresp="#work_00058_005_title">
+                     <titlePart type="main">Juchhei, dich muß ich haben</titlePart>
+                  </title>
+               </work>
+               <work type="" n="006" corresp="#work_00058_006">
+                  <identifier type="no">6</identifier>
+                  <title xml:lang="de" corresp="#work_00058_006_title">
+                     <titlePart type="main">Bitte and den Mond</titlePart>
+                  </title>
+               </work>
+               <work type="" n="007" corresp="#work_00058_007">
+                  <identifier type="no">7</identifier>
+                  <title xml:lang="de" corresp="#work_00058_007_title">
+                     <titlePart type="main">Das Gedenken</titlePart>
+                  </title>
+               </work>
+               <work type="" n="008" corresp="#work_00058_008">
+                  <identifier type="no">8</identifier>
+                  <title xml:lang="de" corresp="#work_00058_008_title">
+                     <titlePart type="main">An die Treulose</titlePart>
+                  </title>
+               </work>
+               <work type="" n="009" corresp="#work_00058_009">
+                  <identifier type="no">9</identifier>
+                  <title xml:lang="de" corresp="#work_00058_009_title">
+                     <titlePart type="main">Wenn ich an den letzten Abend denk</titlePart>
+                  </title>
+               </work>
+               <work type="" n="010" corresp="#work_00058_010">
+                  <identifier type="no">10</identifier>
+                  <title xml:lang="de" corresp="#work_00058_010_title">
+                     <titlePart type="main">Ritters Abschied</titlePart>
+                  </title>
+               </work>
+               <work type="" n="011" corresp="#work_00058_011">
+                  <identifier type="no">11</identifier>
+                  <title xml:lang="de" corresp="#work_00058_011_title">
+                     <titlePart type="main">Der Schildwache Nachtlied</titlePart>
+                  </title>
+               </work>
+               <work type="" n="012" corresp="#work_00058_012">
+                  <identifier type="no">12</identifier>
+                  <title xml:lang="de" corresp="#work_00058_012_title">
+                     <titlePart type="main">Des Buben Herzeleid</titlePart>
+                  </title>
+               </work>
+            </componentList>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation/>
+      </manifestationList>
+   </meiHead>
+   <music>
+      <facsimile/>
+      <body>
+         <mdiv n="1" corresp="#work_00058_001"/>
+         <mdiv n="2" corresp="#work_00058_002"/>
+         <mdiv n="3" corresp="#work_00058_003"/>
+         <mdiv n="4" corresp="#work_00058_004"/>
+         <mdiv n="5" corresp="#work_00058_005"/>
+         <mdiv n="6" corresp="#work_00058_006"/>
+         <mdiv n="7" corresp="#work_00058_007"/>
+         <mdiv n="8" corresp="#work_00058_008"/>
+         <mdiv n="9" corresp="#work_00058_009"/>
+         <mdiv n="10" corresp="#work_00058_010"/>
+         <mdiv n="11" corresp="#work_00058_011"/>
+         <mdiv n="12" corresp="#work_00058_012"/>
+      </body>
+   </music>
+</mei>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://purl.oclc.org/dsdl/schematron?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="work_00023">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <pubStmt>
+            <unpub/>
+         </pubStmt>
+         <sourceDesc>
+            <source/>
+         </sourceDesc>
+      </fileDesc>
+      <workList>
+         <work type="vocal collection">
+            <identifier type="opus" n="23"/>
+            <title type="main" xml:id="work_00023_title"/>
+            <composer>
+               <persName/>
+            </composer>
+            <arranger>
+               <persName/>
+            </arranger>
+            <editor/>
+            <creation/>
+            <history>
+               <eventList>
+                  <event type="publication">
+                     <date/>
+                  </event>
+               </eventList>
+            </history>
+            <langUsage>
+               <language/>
+            </langUsage>
+            <perfMedium>
+               <perfResList>
+                  <perfRes/>
+               </perfResList>
+            </perfMedium>
+            <notesStmt>
+               <annot/>
+            </notesStmt>
+            <expressionList>
+               <expression>
+                  <title corresp="#work_00023_title"/>
+               </expression>
+            </expressionList>
+            <componentList>
+               <work type="" n="001" corresp="#work_00023_001">
+                  <identifier type="no">1</identifier>
+                  <title xml:lang="de" corresp="#work_00023_001_title">
+                     <titlePart type="main">Schottischer Bardenchor</titlePart>
+                  </title>
+               </work>
+               <work type="" n="002" corresp="#work_00023_002">
+                  <identifier type="no">2</identifier>
+                  <title xml:lang="de" corresp="#work_00023_002_title">
+                     <titlePart type="main">Des Sommers letzte Rose</titlePart>
+                  </title>
+               </work>
+               <work type="" n="003" corresp="#work_00023_003">
+                  <identifier type="no">3</identifier>
+                  <title xml:lang="de" corresp="#work_00023_003_title">
+                     <titlePart type="main">Trinklied im Frühling</titlePart>
+                  </title>
+               </work>
+               <work type="" n="004" corresp="#work_00023_004">
+                  <identifier type="no">4</identifier>
+                  <title xml:lang="de" corresp="#work_00023_004_title">
+                     <titlePart type="main">Oft wenn erbleicht der Sterne Pracht</titlePart>
+                  </title>
+               </work>
+               <work type="" n="005" corresp="#work_00023_005">
+                  <identifier type="no">5</identifier>
+                  <title xml:lang="de" corresp="#work_00023_005_title">
+                     <titlePart type="main">Und ob alles nur Trug ist und Schaum</titlePart>
+                  </title>
+               </work>
+               <work type="" n="006" corresp="#work_00023_006">
+                  <identifier type="no">6</identifier>
+                  <title xml:lang="de" corresp="#work_00023_006_title">
+                     <titlePart type="main">Das Mondlicht scheint in Fülle</titlePart>
+                  </title>
+               </work>
+               <work type="" n="007" corresp="#work_00023_007">
+                  <identifier type="no">7</identifier>
+                  <title xml:lang="de" corresp="#work_00023_007_title">
+                     <titlePart type="main">O süßes Kind</titlePart>
+                  </title>
+               </work>
+               <work type="" n="008" corresp="#work_00023_008">
+                  <identifier type="no">8</identifier>
+                  <title xml:lang="de" corresp="#work_00023_008_title">
+                     <titlePart type="main">Schlummerlos rauschen die Saiten</titlePart>
+                  </title>
+               </work>
+               <work type="" n="009" corresp="#work_00023_009">
+                  <identifier type="no">9</identifier>
+                  <title xml:lang="de" corresp="#work_00023_009_title">
+                     <titlePart type="main">Barcarole</titlePart>
+                  </title>
+               </work>
+               <work type="" n="010" corresp="#work_00023_010">
+                  <identifier type="no">10</identifier>
+                  <title xml:lang="de" corresp="#work_00023_010_title">
+                     <titlePart type="main">Die Gleiche</titlePart>
+                  </title>
+               </work>
+               <work type="" n="011" corresp="#work_00023_011">
+                  <identifier type="no">11</identifier>
+                  <title xml:lang="de" corresp="#work_00023_011_title">
+                     <titlePart type="main">Helft mir weinen</titlePart>
+                  </title>
+               </work>
+            </componentList>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation/>
+      </manifestationList>
+   </meiHead>
+   <music>
+      <facsimile/>
+      <body>
+         <mdiv n="1" corresp="#work_00023_001"/>
+         <mdiv n="2" corresp="#work_00023_002"/>
+         <mdiv n="3" corresp="#work_00023_003"/>
+         <mdiv n="4" corresp="#work_00023_004"/>
+         <mdiv n="5" corresp="#work_00023_005"/>
+         <mdiv n="6" corresp="#work_00023_006"/>
+         <mdiv n="7" corresp="#work_00023_007"/>
+         <mdiv n="8" corresp="#work_00023_008"/>
+         <mdiv n="9" corresp="#work_00023_009"/>
+         <mdiv n="10" corresp="#work_00023_010"/>
+         <mdiv n="11" corresp="#work_00023_011"/>
+      </body>
+   </music>
+</mei>

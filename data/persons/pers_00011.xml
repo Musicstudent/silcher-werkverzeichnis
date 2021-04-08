@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pers_00011" xml:lang="de" role="lyricist">
+   <persName>
+      <forename sort="1">Anton</forename>
+      <forename sort="2">Alexander</forename>
+      <surname sort="3">
+         <addName sort="3" type="nobility">Graf</addName>
+         <nameLink>von</nameLink>
+         Auersperg</surname>
+      <addName type="pseudonym">
+         <forename sort="1">Anastasius</forename>
+         <surname sort="2">Grün</surname>
+      </addName>
+   </persName>
+   <idno type="GND" xml:base="http://d-nb.info/gnd/">118719033</idno>
+</person>

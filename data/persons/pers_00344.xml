@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pers_00344" xml:lang="de" role="lyricist">
+   <persName>
+      <forename sort="1">C.</forename>
+      <forename sort="2">H.</forename>
+      <surname sort="3">Wüst</surname>
+   </persName>
+</person>

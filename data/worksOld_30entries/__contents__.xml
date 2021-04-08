@@ -1,0 +1,93 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/silcherWerkverzeichnis/data/worksOld_30entries" version="1" owner="admin" group="dba" mode="755" created="2021-03-22T14:14:02.023Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="work_00006_001.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.147Z" modified="2021-03-22T14:14:37.147Z" filename="work_00006_001.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00006_002.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.155Z" modified="2021-03-22T14:14:37.155Z" filename="work_00006_002.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00006_003.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.159Z" modified="2021-03-22T14:14:37.159Z" filename="work_00006_003.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00006_004.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.163Z" modified="2021-03-22T14:14:37.163Z" filename="work_00006_004.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00006_005.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.167Z" modified="2021-03-22T14:14:37.167Z" filename="work_00006_005.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00006_006.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.17Z" modified="2021-03-22T14:14:37.17Z" filename="work_00006_006.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00006_007.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.174Z" modified="2021-03-22T14:14:37.174Z" filename="work_00006_007.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00006_008.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.178Z" modified="2021-03-22T14:14:37.178Z" filename="work_00006_008.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00006_009.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.181Z" modified="2021-03-22T14:14:37.181Z" filename="work_00006_009.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00006_010.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.185Z" modified="2021-03-22T14:14:37.185Z" filename="work_00006_010.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00006_011.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.188Z" modified="2021-03-22T14:14:37.188Z" filename="work_00006_011.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00006_012.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.192Z" modified="2021-03-22T14:14:37.192Z" filename="work_00006_012.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00007.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.196Z" modified="2021-03-22T14:14:37.196Z" filename="work_00007.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00007_001.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.203Z" modified="2021-03-22T14:14:37.203Z" filename="work_00007_001.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00007_002.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.25Z" modified="2021-03-22T14:14:37.25Z" filename="work_00007_002.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00007_003.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.301Z" modified="2021-03-22T14:14:37.301Z" filename="work_00007_003.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00007_004.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.305Z" modified="2021-03-22T14:14:37.305Z" filename="work_00007_004.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00007_005.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.308Z" modified="2021-03-22T14:14:37.308Z" filename="work_00007_005.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00007_006.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.311Z" modified="2021-03-22T14:14:37.311Z" filename="work_00007_006.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00007_007.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.314Z" modified="2021-03-22T14:14:37.314Z" filename="work_00007_007.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00007_008.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.317Z" modified="2021-03-22T14:14:37.317Z" filename="work_00007_008.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00007_009.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.32Z" modified="2021-03-22T14:14:37.32Z" filename="work_00007_009.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00007_010.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.323Z" modified="2021-03-22T14:14:37.323Z" filename="work_00007_010.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00007_011.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.326Z" modified="2021-03-22T14:14:37.326Z" filename="work_00007_011.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00007_012.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.329Z" modified="2021-03-22T14:14:37.329Z" filename="work_00007_012.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_01000.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.332Z" modified="2021-03-22T14:14:37.332Z" filename="work_01000.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_01000_001.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.338Z" modified="2021-03-22T14:14:37.338Z" filename="work_01000_001.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_01000_002.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.37Z" modified="2021-03-22T14:14:37.37Z" filename="work_01000_002.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_01000_003.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.449Z" modified="2021-03-22T14:14:37.449Z" filename="work_01000_003.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="work_00006.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-03-22T14:14:37.483Z" modified="2021-03-22T14:14:37.483Z" filename="work_00006.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

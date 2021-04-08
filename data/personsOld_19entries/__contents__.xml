@@ -1,0 +1,60 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/silcherWerkverzeichnis/data/personsOld_19entries" version="1" owner="admin" group="dba" mode="755" created="2020-12-07T17:00:30.556Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="pers_00019.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-02-19T21:48:32.01Z" modified="2021-02-19T21:48:32.01Z" filename="pers_00019.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00002.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-12-10T20:25:24.66Z" modified="2021-02-19T21:14:58.376Z" filename="pers_00002.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00001.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-12-10T20:25:25.263Z" modified="2021-03-01T23:41:20.903Z" filename="pers_00001.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00010.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-12-10T20:25:25.191Z" modified="2021-02-18T23:13:37.572Z" filename="pers_00010.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00009.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-12-10T20:25:25.112Z" modified="2021-02-18T23:13:31.341Z" filename="pers_00009.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00008.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-12-10T20:25:25.044Z" modified="2021-02-19T21:27:05.516Z" filename="pers_00008.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00007.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-12-10T20:25:24.955Z" modified="2021-02-19T21:25:17.877Z" filename="pers_00007.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00006.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-12-10T20:25:24.892Z" modified="2021-02-19T21:24:33.678Z" filename="pers_00006.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00005.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-12-10T20:25:24.849Z" modified="2021-02-19T21:22:27.861Z" filename="pers_00005.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00004.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-12-10T20:25:24.757Z" modified="2021-02-19T21:19:36.495Z" filename="pers_00004.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00003.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-12-10T20:25:24.713Z" modified="2021-02-19T21:16:38.987Z" filename="pers_00003.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00011.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-02-19T21:37:24.941Z" modified="2021-02-19T21:37:24.941Z" filename="pers_00011.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00012.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-02-19T21:38:55.851Z" modified="2021-02-19T21:38:55.851Z" filename="pers_00012.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00013.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-02-19T21:40:02.066Z" modified="2021-02-19T21:40:02.066Z" filename="pers_00013.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00014.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-02-19T21:41:12.509Z" modified="2021-02-19T21:41:12.509Z" filename="pers_00014.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00015.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-02-19T21:42:54.809Z" modified="2021-02-19T21:42:54.809Z" filename="pers_00015.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00016.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-02-19T21:44:24.028Z" modified="2021-02-19T21:44:24.028Z" filename="pers_00016.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00017.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-02-19T21:45:04.843Z" modified="2021-02-19T21:45:04.843Z" filename="pers_00017.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="pers_00018.xml" skip="no" owner="admin" group="dba" mode="644" created="2021-02-19T21:46:52.517Z" modified="2021-02-19T21:46:52.517Z" filename="pers_00018.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

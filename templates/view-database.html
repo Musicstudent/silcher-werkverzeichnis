@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Template für die meisten HTML-Seiten (außer der Landing Page) --><html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title data-template="config:app-title">Werkverzeichnis</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <meta data-template="config:app-meta"/>
+        <meta charset="utf-8"/>
+        <!-- Bootstrap CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+        <script defer="true" src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"/>
+        <script defer="true" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"/>
+        <script defer="true" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"/>
+        <!-- Leaflet CDN -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""/>
+        <!-- Leaflet plugins -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"/>
+        <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"/>
+        <script src="resources/js/Leaflet.MakiMarkers.js"/>
+        <!-- OpenSeaDragon Viewer -->
+        <script defer="true" src="http://localhost:8080/exist/apps/silcherWerkverzeichnis/resources/viewer/openseadragon/openseadragon.min.js"/>
+        <script defer="true" src="http://localhost:8080/exist/apps/silcherWerkverzeichnis/resources/js/viewer.js"/>
+        <!-- Main custom CSS file -->
+        <link rel="stylesheet" type="text/css" href="http://localhost:8080/exist/apps/silcherWerkverzeichnis/resources/css/styles.css"/>
+        <!-- Styles for leaflet map -->
+        <link rel="stylesheet" type="text/css" href="http://localhost:8080/exist/apps/silcherWerkverzeichnis/resources/css/map-styles.css"/>
+        <!-- Main custom JS file -->
+        <script defer="true" src="http://localhost:8080/exist/apps/silcherWerkverzeichnis/resources/js/script.js"/>
+    </head>
+
+    <body lang="de" class="d-flex flex-column h-100">
+        <div id="main-container">
+            <div>
+                <nav data-template="templates:include" data-template-path="templates/navbar.html"/>
+            </div>
+            <div id="register" class="container"/>
+            <div>
+                <footer data-template="templates:include" data-template-path="templates/footer.html"/>
+            </div>
+        </div>
+    </body>
+    
+    <!-- Verovio-Viewer, in welchem der Notentext gerendert wird
+         (Ich weiß nicht, wie man den Code auslagern kann => Error: "Cannot use import statement outside a module") -->
+    <script type="module">
+    
+     import 'https://www.verovio.org/javascript/app/verovio-app.js';
+    
+        // Create the app - here with an empty option object
+        const app = new Verovio.App(document.getElementById("app"), {defaultZoom: 3})
+        const url = window.location.href.split("/")
+        const work = url[url.length - 1]
+        const mei = `http://localhost:8080/exist/apps/silcherWerkverzeichnis/data/works/${work}.xml`
+        // Load a file (MEI or MusicXML)
+        fetch(mei)
+            .then(response =&gt; response.text())
+            .then(text =&gt; app.loadData(text))
+    </script>
+</html>

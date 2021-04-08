@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pers_00015" xml:lang="de" role="lyricist">
+   <persName>
+      <forename sort="1">Johann</forename>
+      <forename sort="2">Valentin</forename>
+      <surname sort="3">Adrian</surname>
+   </persName>
+   <idno type="GND" xml:base="http://d-nb.info/gnd/">119089645</idno>
+</person>

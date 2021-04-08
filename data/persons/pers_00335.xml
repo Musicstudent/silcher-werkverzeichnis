@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pers_00335" xml:lang="de" role="composer">
+    <persName>
+        <forename sort="1">Carl</forename>
+        <forename sort="2">Maria</forename>
+        <nameLink sort="3">von</nameLink>
+        <surname sort="4">Weber</surname>
+    </persName>
+    <idno type="GND" xml:base="http://d-nb.info/gnd/">118629662</idno>
+</person>

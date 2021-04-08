@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="work_00007">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <pubStmt>
+                <unpub/>
+            </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work type="vocal male-choir collection">
+                <identifier type="opus" n="7"/>
+                <title type="main" xml:id="work_00007_title">12 Volkslieder</title>
+                <title type="desc">Gesammelt und für 4 Männerstimmen gesetzt von Friedrich Silcher</title>
+                <title type="desc">1. Heft</title>
+                <composer>Volkslieder</composer>
+                <arranger>
+                    <persName auth="pers_00273"/>
+                </arranger>
+                <editor>
+                    <persName>Heinrich Laupp</persName>
+                    <settlement>Tübingen</settlement>
+                </editor>
+                <creation/>
+                <history>
+                    <eventList>
+                        <event type="publication">
+                            <date isodate="1826-00-00"/>
+                        </event>
+                    </eventList>
+                </history>
+                <langUsage>
+                    <language xml:id="de">Deutsch</language>
+                </langUsage>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes n="1" codedval="vd">Tenor I</perfRes>
+                        <perfRes n="2" codedval="vd">Tenor II</perfRes>
+                        <perfRes n="3" codedval="vf">Bass I</perfRes>
+                        <perfRes n="4" codedval="vf">Bass II</perfRes>
+                    </perfResList>
+                </perfMedium>
+                <notesStmt>
+                    <annot/>
+                </notesStmt>
+                <expressionList>
+                    <expression n="1">
+                        <title corresp="#work_00007_title"/>
+                    </expression>
+                </expressionList>
+                <componentList>
+                    <work type="male-choir" n="001" corresp="#work_00007_001">
+                        <identifier type="no">1</identifier>
+                        <title xml:lang="de" corresp="#work_00007_001_title">
+                            <titlePart type="main">Wonne des Liebenden</titlePart>
+                        </title>
+                    </work>
+                    <work type="male-choir" n="002" corresp="#work_00007_002">
+                        <identifier type="no">2</identifier>
+                        <title xml:lang="de" corresp="#work_00007_002_title">
+                            <titlePart type="main">Untreue</titlePart>
+                        </title>
+                    </work>
+                    <work type="male-choir" n="003" corresp="#work_00007_003">
+                        <identifier type="no">3</identifier>
+                        <title xml:lang="de" corresp="#work_00007_003_title">
+                            <titlePart type="main">Der Sommer</titlePart>
+                        </title>
+                    </work>
+                    <work type="male-choir" n="004" corresp="#work_00007_004">
+                        <identifier type="no">4</identifier>
+                        <title xml:lang="de" corresp="#work_00007_004_title">
+                            <titlePart type="main">Die drei Röselein</titlePart>
+                        </title>
+                    </work>
+                    <work type="male-choir" n="005" corresp="#work_00007_005">
+                        <identifier type="no">5</identifier>
+                        <title xml:lang="de" corresp="#work_00007_005_title">
+                            <titlePart type="main">Untreue</titlePart>
+                        </title>
+                    </work>
+                    <work type="male-choir" n="006" corresp="#work_00007_006">
+                        <identifier type="no">6</identifier>
+                        <title xml:lang="de" corresp="#work_00007_006_title">
+                            <titlePart type="main">Treue Liebe</titlePart>
+                        </title>
+                    </work>
+                    <work type="male-choir" n="007" corresp="#work_00007_007">
+                        <identifier type="no">7</identifier>
+                        <title xml:lang="de" corresp="#work_00007_007_title">
+                            <titlePart type="main">Flug der Liebe</titlePart>
+                        </title>
+                    </work>
+                    <work type="male-choir" n="008" corresp="#work_00007_008">
+                        <identifier type="no">8</identifier>
+                        <title xml:lang="de" corresp="#work_00007_008_title">
+                            <titlePart type="main">Jagdglück</titlePart>
+                        </title>
+                    </work>
+                    <work type="male-choir" n="009" corresp="#work_00007_009">
+                        <identifier type="no">9</identifier>
+                        <title xml:lang="de" corresp="#work_00007_009_title">
+                            <titlePart type="main">Hans und Verene</titlePart>
+                        </title>
+                    </work>
+                    <work type="male-choir" n="010" corresp="#work_00007_010">
+                        <identifier type="no">10</identifier>
+                        <title xml:lang="de" corresp="#work_00007_010_title">
+                            <titlePart type="main">Teuere Liebe</titlePart>
+                        </title>
+                    </work>
+                    <work type="male-choir" n="011" corresp="#work_00007_011">
+                        <identifier type="no">11</identifier>
+                        <title xml:lang="de" corresp="#work_00007_011_title">
+                            <titlePart type="main">Die Deutschen vor Belgrad</titlePart>
+                        </title>
+                    </work>
+                    <work type="male-choir" n="012" corresp="#work_00007_012">
+                        <identifier type="no">12</identifier>
+                        <title xml:lang="de" corresp="#work_00007_012_title">
+                            <titlePart type="main">Schwäbisches Tanzliedchen</titlePart>
+                        </title>
+                    </work>
+                </componentList>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation n="1">
+                <itemList>
+                    <item label="BSB" xml:id="work_00007_item_01">
+                        <physLoc>
+                            <repository>
+                                <corpName>Bayerische Staatsbibliothek</corpName>
+                                <settlement>München</settlement>
+                            </repository>
+                        </physLoc>
+                        <identifier type="shelfmark">4 Mus.pr. 298 a-1</identifier>
+                        <identifier type="urn" xml:base="http://mdz-nbn-resolving.de/">urn:nbn:de:bvb:12-bsb11139631-8</identifier>
+                    </item>
+                </itemList>
+            </manifestation>
+        </manifestationList>
+    </meiHead>
+    <music>
+        <facsimile decls="#work_00007_item_01" class="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11139631/manifest">
+            <surface n="1" label="frontpage recto [page 1]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00001/info.json"/>
+            </surface>
+            <surface n="2" label="frontpage verso [page 2]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00002/info.json"/>
+            </surface>
+        </facsimile>
+        <body>
+            <mdiv n="1" corresp="#work_00007_001"/>
+            <mdiv n="2" corresp="#work_00007_002"/>
+            <mdiv n="3" corresp="#work_00007_003"/>
+            <mdiv n="4" corresp="#work_00007_004"/>
+            <mdiv n="5" corresp="#work_00007_005"/>
+            <mdiv n="6" corresp="#work_00007_006"/>
+            <mdiv n="7" corresp="#work_00007_007"/>
+            <mdiv n="8" corresp="#work_00007_008"/>
+            <mdiv n="9" corresp="#work_00007_009"/>
+            <mdiv n="10" corresp="#work_00007_010"/>
+            <mdiv n="11" corresp="#work_00007_011"/>
+            <mdiv n="12" corresp="#work_00007_012"/>
+        </body>
+    </music>
+</mei>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="work_00006_003">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <pubStmt>
+                <unpub/>
+            </pubStmt>
+            <sourceDesc>
+                <source>
+                    <bibl type="monogr">
+                        <ref target="bibl_0001"/>
+                        <biblScope from="84" to="84"/>
+                    </bibl>
+                </source>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work type="vocal canon">
+                <identifier type="opus" n="6"/>
+                <identifier type="number" n="3"/>
+                <title type="main">Nach der Arbeit ist gut ruhn</title>
+                <composer>
+                    <persName auth="pers_00273"/>
+                </composer>
+                <lyricist>
+                    <persName/>
+                </lyricist>
+                <incip>
+                    <incipText>
+                        <p>Nach der Arbeit ist gut ruhn</p>
+                    </incipText>
+                </incip>
+                <history>
+                    <eventList>
+                        <event type="creation">
+                            <date/>
+                        </event>
+                        <event type="publication">
+                            <date isodate="1825-00-00"/>
+                        </event>
+                    </eventList>
+                </history>
+                <langUsage>
+                    <language xml:id="de">Deutsch</language>
+                </langUsage>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes/>
+                    </perfResList>
+                </perfMedium>
+                <notesStmt>
+                    <annot/>
+                </notesStmt>
+                <expressionList>
+                    <expression>
+                        <title/>
+                    </expression>
+                </expressionList>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation type="firstEdition">
+                <biblList>
+                    <bibl>
+                        <ref target="src_0001"/>
+                    </bibl>
+                </biblList>
+            </manifestation>
+            <manifestation type="newEdition">
+                <biblList>
+                    <bibl>
+                        <ref target="src_0002"/>
+                        <biblScope unit="vol" n="7"/>
+                        <biblScope unit="page" n="27"/>
+                    </bibl>
+                </biblList>
+            </manifestation>
+        </manifestationList>
+    </meiHead>
+    <music>
+        <body>
+            <mdiv n="1" corresp="#work_00006_003"/>
+        </body>
+    </music>
+</mei>

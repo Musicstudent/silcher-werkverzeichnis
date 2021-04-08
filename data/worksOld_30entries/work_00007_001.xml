@@ -1,0 +1,1921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="work_00007_001">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Wonne des Liebenden
+                <titlePart type="subordinate">für vier Männerstimmen</titlePart>
+                <titlePart type="subordinate">Op. 7 No. 1</titlePart>
+            </title>
+         </titleStmt>
+         <pubStmt>
+            <unpub/>
+         </pubStmt>
+         <sourceDesc>
+            <source>
+               <bibl type="monogr">
+                  <ref target="bibl_0001"/>
+                  <biblScope from="71" to="71"/>
+               </bibl>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <workList>
+         <work type="vocal male-choir">
+            <identifier type="opus" n="7"/>
+            <identifier type="number" n="1"/>
+            <title type="main">Wonne des Liebenden</title>
+            <composer>Volkslied</composer>
+            <arranger>
+               <persName auth="pers_00273"/>
+            </arranger>
+            <lyricist>Volkslied</lyricist>
+            <incip>
+               <incipText>
+                  <p>Keine Rose, keine Nelke kann blühen</p>
+               </incipText>
+            </incip>
+            <history>
+               <eventList>
+                  <event type="creation">
+                     <date/>
+                  </event>
+                  <event type="publication">
+                     <date isodate="1826-00-00"/>
+                  </event>
+               </eventList>
+            </history>
+            <langUsage>
+               <language xml:id="de">Deutsch</language>
+            </langUsage>
+            <perfMedium>
+                <perfResList>
+                    <perfRes n="1" codedval="vd">Tenor I</perfRes>
+                    <perfRes n="2" codedval="vd">Tenor II</perfRes>
+                    <perfRes n="3" codedval="vf">Bass I</perfRes>
+                    <perfRes n="4" codedval="vf">Bass II</perfRes>
+                </perfResList>
+            </perfMedium>
+            <notesStmt>
+               <annot/>
+            </notesStmt>
+            <expressionList>
+               <expression>
+                  <title/>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation n="1">
+            <itemList>
+                <item target="#work_00007_item_01"/>
+            </itemList>
+            <biblList>
+               <bibl>
+                  <ref target="src_0002"/>
+                  <biblScope unit="vol" n="1"/>
+                  <biblScope unit="page" n="1"/>
+               </bibl>
+            </biblList>
+         </manifestation>
+      </manifestationList>
+   </meiHead>
+   <music label="1. Wonne des Liebenden">
+      <facsimile decls="#">
+            <surface n="1" label="tenor 1 [page 5]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00005/info.json"/>
+            </surface>
+            <surface n="2" label="tenor 2 [page 27]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00027/info.json"/>
+            </surface>
+            <surface n="3" label="bass 1 [page 49]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00049/info.json"/>
+            </surface>
+            <surface n="4" label="bass 2 [page 71]">
+                <graphic n="1" mimetype="image/jpeg" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11139631_00071/info.json"/>
+            </surface>
+      </facsimile>
+      <body>
+         <mdiv n="1" corresp="#work_00007_001">
+            <score>
+               <scoreDef meter.count="3" meter.unit="4" key.sig="2f" key.pname="b" key.accid="s" key.mode="major">
+                  <staffGrp symbol="bracket">
+                    <staffDef n="1" clef.line="2" clef.shape="G" lines="5" lyric.style="italic">
+                        <label font.style="italic">Tenor I</label>
+                    </staffDef>
+                     <staffDef n="2" clef.line="2" clef.shape="G" lines="5" lyric.style="italic">
+                        <label>
+                                    <rend rend="italic">Tenor II</rend>
+                                </label>
+                    </staffDef>
+                    <staffDef n="3" clef.line="4" clef.shape="F" lines="5" lyric.style="italic">
+                        <label>
+                                    <rend rend="italic">Bass I</rend>
+                                </label>
+                    </staffDef>
+                    <staffDef n="4" clef.line="4" clef.shape="F" lines="5" lyric.style="italic">
+                        <label>
+                                    <rend rend="italic">Bass II</rend>
+                                </label>
+                    </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section>
+                  <measure n="0" metcon="false">
+                     <staff n="1">
+                        <layer>
+                           <note pname="f" oct="4" dur="8" dots="1" stem.dir="up">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">Kei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">Kei</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl con="u">Setz</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="4" dur="16" stem.dir="up">
+                              <verse n="1">
+                                 <syl wordpos="t">ne</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">ne</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer>
+                           <note pname="f" oct="4" dur="8" dots="1" stem.dir="up">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">Kei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">Kei</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl con="u">Setz</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="4" dur="16" stem.dir="up">
+                              <verse n="1">
+                                 <syl wordpos="t">ne</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">ne</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer>
+                           <note pname="f" oct="3" dur="8" dots="1" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">Kei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">Kei</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl con="u">Setz</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="3" dur="16" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">ne</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">ne</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer>
+                           <note pname="f" oct="3" dur="8" dots="1" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">Kei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">Kei</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl con="u">Setz</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="3" dur="16" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">ne</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">ne</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <tempo tstamp="0" staff="1" place="above">Innig</tempo>
+                  </measure>
+                  <measure n="1">
+                     <staff n="1">
+                        <layer>
+                           <note pname="b" oct="4" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">Ro</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">Koh</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>du</syl>
+                              </verse>
+                           </note>
+                           <note pname="b" oct="4" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">se,</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">le,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>mir</syl>
+                              </verse>
+                           </note>
+                           <note pname="c" oct="5" dur="8" dots="1" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">kei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="u">kein</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">ein</syl>
+                              </verse>
+                           </note>
+                           <note pname="c" oct="5" dur="16" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">ne</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">en</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer>
+                           <note pname="f" oct="4" dur="4" stem.dir="up">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">Ro</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">Koh</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>du</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="4" dur="4" stem.dir="up">
+                              <verse n="1">
+                                 <syl wordpos="t">se,</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">le,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>mir</syl>
+                              </verse>
+                           </note>
+                           <choice>
+                                <orig>
+                                    <note pname="a" oct="4" dur="8" stem.dir="up">
+                                       <verse n="1">
+                                          <syl wordpos="i" con="d">kei</syl>
+                                       </verse>
+                                       <verse n="2">
+                                          <syl con="u">kein</syl>
+                                       </verse>
+                                       <verse n="3">
+                                          <syl wordpos="i" con="d">ein</syl>
+                                       </verse>
+                                    </note>
+                                    <note pname="a" oct="4" dur="8" stem.dir="up">
+                                       <verse n="1">
+                                          <syl wordpos="t">ne</syl>
+                                       </verse>
+                                       <verse n="3">
+                                          <syl wordpos="t">en</syl>
+                                       </verse>
+                                    </note>
+                                </orig>
+                                <reg>
+                                    <note pname="a" oct="4" dur="8" dots="1" stem.dir="up">
+                                       <verse n="1">
+                                          <syl wordpos="i" con="d">kei</syl>
+                                       </verse>
+                                       <verse n="2">
+                                          <syl con="u">kein</syl>
+                                       </verse>
+                                       <verse n="3">
+                                          <syl wordpos="i" con="d">ein</syl>
+                                       </verse>
+                                    </note>
+                                    <note pname="a" oct="4" dur="16" stem.dir="up">
+                                       <verse n="1">
+                                          <syl wordpos="t">ne</syl>
+                                       </verse>
+                                       <verse n="3">
+                                          <syl wordpos="t">en</syl>
+                                       </verse>
+                                    </note>
+                                </reg>
+                           </choice>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer>
+                           <note pname="f" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">Ro</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">Koh</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>du</syl>
+                              </verse>
+                           </note>
+                           <note pname="d" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">se,</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">le,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>mir</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="3" dur="8" dots="1" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">kei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="u">kein</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">ein</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="3" dur="16" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">ne</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">en</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer>
+                           <note pname="d" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">Ro</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">Koh</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>du</syl>
+                              </verse>
+                           </note>
+                           <note pname="b" oct="2" dur="4" stem.dir="up">
+                              <verse n="1">
+                                 <syl wordpos="t">se,</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">le,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>mir</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="3" dur="8" dots="1" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">kei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="u">kein</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">ein</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="3" dur="16" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">ne</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">en</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="2">
+                     <staff n="1">
+                        <layer>
+                           <note pname="d" oct="5" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">Nel</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">Feu</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">Spie</syl>
+                              </verse>
+                           </note>
+                           <note pname="d" oct="5" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">ke</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">er</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">gel</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="5" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl>kann</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>kann</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>ins</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer>
+                           <note pname="b" oct="4" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">Nel</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">Feu</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">Spie</syl>
+                              </verse>
+                           </note>
+                           <note pname="b" oct="4" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">ke</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">er</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">gel</syl>
+                              </verse>
+                           </note>
+                           <note pname="c" oct="5" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl>kann</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>kann</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>ins</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer>
+                           <note pname="f" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">Nel</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">Feu</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">Spie</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">ke</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">er</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">gel</syl>
+                              </verse>
+                           </note>
+                           <note pname="a" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl>kann</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>kann</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>ins</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer>
+                           <note pname="d" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">Nel</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">Feu</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">Spie</syl>
+                              </verse>
+                           </note>
+                           <note pname="b" oct="2" dur="4" stem.dir="up">
+                              <verse n="1">
+                                 <syl wordpos="t">ke</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">er</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">gel</syl>
+                              </verse>
+                           </note>
+                           <note pname="e" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl>kann</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>kann</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>ins</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="3">
+                     <staff n="1">
+                        <layer>
+                           <beam>
+                              <note pname="g" oct="5" dur="8" stem.dir="down" xml:id="p1m3n1">
+                                 <verse n="1">
+                                    <syl wordpos="i" con="d">blü</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl wordpos="i" con="d">bren</syl>
+                                 </verse>
+                                 <verse n="3">
+                                    <syl wordpos="i" con="d">Her</syl>
+                                 </verse>
+                              </note>
+                              <note pname="f" oct="5" dur="8" stem.dir="down" xml:id="p1m3n2"/>
+                           </beam>
+                           <beam>
+                              <note pname="e" oct="5" dur="8" stem.dir="down" xml:id="p1m3n3">
+                                 <verse n="1">
+                                    <syl wordpos="t" con="d">hen</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl wordpos="t">nen</syl>
+                                 </verse>
+                                 <verse n="3">
+                                    <syl wordpos="t">zen</syl>
+                                 </verse>
+                              </note>
+                              <note pname="d" oct="5" dur="8" stem.dir="down" xml:id="p1m3n4"/>
+                           </beam>
+                           <beam>
+                              <note pname="c" oct="5" dur="8" stem.dir="down" xml:id="p1m3n5">
+                                 <verse n="1">
+                                    <syl>so</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl>so</syl>
+                                 </verse>
+                                 <verse n="3">
+                                    <syl wordpos="i" con="d">hin</syl>
+                                 </verse>
+                              </note>
+                              <note pname="b" oct="4" dur="8" stem.dir="down" xml:id="p1m3n6"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <slur startid="#p1m3n1" endid="#p1m3n2"/>
+                     <slur startid="#p1m3n3" endid="#p1m3n4"/>
+                     <slur startid="#p1m3n5" endid="#p1m3n6"/>
+                     <staff n="2">
+                        <layer>
+                           <note pname="b" oct="4" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">blü</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">bren</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">Her</syl>
+                              </verse>
+                           </note>
+                           <note pname="b" oct="4" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t" con="d">hen</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">nen</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">zen</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="4" dur="4" stem.dir="up">
+                              <verse n="1">
+                                 <syl>so</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>so</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">hin</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer>
+                           <note pname="b" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">blü</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">bren</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">Her</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t" con="d">hen</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">nen</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">zen</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl>so</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>so</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">hin</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer>
+                           <note pname="d" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">blü</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">bren</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">Her</syl>
+                              </verse>
+                           </note>
+                           <note pname="b" oct="2" dur="4" stem.dir="up">
+                              <verse n="1">
+                                 <syl wordpos="t" con="d">hen</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">nen</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">zen</syl>
+                              </verse>
+                           </note>
+                           <note pname="d" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl>so</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>so</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">hin</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="4">
+                     <staff n="1">
+                        <layer>
+                           <note pname="d" oct="5" dur="4" stem.dir="up" grace="acc" grace.time="50%" xml:id="p1m4n1">
+                              <verse n="1">
+                                 <syl>schön,</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>heiß,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">ein,</syl>
+                              </verse>
+                           </note>
+                           <note pname="c" oct="5" dur="2" stem.dir="down" xml:id="p1m4n2"/>
+                           <note pname="f" oct="5" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl>als</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>als</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>daß</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <slur startid="#p1m4n1" endid="#p1m4n2"/>
+                     <staff n="2">
+                        <layer>
+                           <note pname="b" oct="4" dur="4" stem.dir="up" grace="acc" grace.time="50%" xml:id="p2m4n1">
+                              <verse n="1">
+                                 <syl>schön,</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>heiß,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">ein,</syl>
+                              </verse>
+                           </note>
+                           <note pname="a" oct="4" dur="2" stem.dir="up" xml:id="p2m4n2"/>
+                           <note pname="b" oct="4" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl>als</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>als</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>daß</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <slur startid="#p2m4n1" endid="#p2m4n2"/>
+                     <staff n="3">
+                        <layer>
+                           <note pname="f" oct="3" dur="2" stem.dir="down">
+                              <verse n="1">
+                                 <syl>schön,</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>heiß,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">ein,</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl>als</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>als</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>daß</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer>
+                           <note pname="f" oct="3" dur="2" stem.dir="down">
+                              <verse n="1">
+                                 <syl>schön,</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>heiß,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">ein,</syl>
+                              </verse>
+                           </note>
+                           <note pname="d" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl>als</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>als</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>daß</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="5">
+                     <staff n="1">
+                        <layer>
+                           <beam>
+                              <note pname="g" oct="5" dur="8" stem.dir="down" xml:id="p1m5n1">
+                                 <verse n="1">
+                                    <syl>wenn</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl wordpos="i" con="d">heim</syl>
+                                 </verse>
+                                 <verse n="3">
+                                    <syl>du</syl>
+                                 </verse>
+                              </note>
+                              <note pname="e" oct="5" dur="8" stem.dir="down" xml:id="p1m5n2"/>
+                           </beam>
+                           <note pname="e" oct="5" dur="8" stem.dir="down">
+                              <verse n="1">
+                                 <syl>zwei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="m" con="d">li</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>kannst</syl>
+                              </verse>
+                           </note>
+                           <note pname="e" oct="5" dur="8" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">ver</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">che,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">dar</syl>
+                              </verse>
+                           </note>
+                           <note pname="e" oct="5" dur="8" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="m" con="d">lieb</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">stil</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="m" con="d">in</syl>
+                              </verse>
+                           </note>
+                           <note pname="g" oct="5" dur="8" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">te</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">le</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">nen</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <slur startid="#p1m5n1" endid="#p1m5n2"/>
+                     <staff n="2">
+                        <layer>
+                           <note pname="b" oct="4" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl>wenn</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">heim</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>du</syl>
+                              </verse>
+                           </note>
+                           <note pname="b" oct="4" dur="8" stem.dir="down">
+                              <verse n="1">
+                                 <syl>zwei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="m" con="d">li</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>kannst</syl>
+                              </verse>
+                           </note>
+                           <note pname="b" oct="4" dur="8" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">ver</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">che,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">dar</syl>
+                              </verse>
+                           </note>
+                           <note pname="b" oct="4" dur="8" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="m" con="d">lieb</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">stil</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="m" con="d">in</syl>
+                              </verse>
+                           </note>
+                           <note pname="e" oct="5" dur="8" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">te</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">le</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">nen</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer>
+                           <beam>
+                              <note pname="e" oct="3" dur="8" stem.dir="down" xml:id="p3m5n1">
+                                 <verse n="1">
+                                    <syl>wenn</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl wordpos="i" con="d">heim</syl>
+                                 </verse>
+                                 <verse n="3">
+                                    <syl>du</syl>
+                                 </verse>
+                              </note>
+                              <note pname="g" oct="3" dur="8" stem.dir="down" xml:id="p3m5n2"/>
+                           </beam>
+                           <note pname="g" oct="3" dur="8" stem.dir="down">
+                              <verse n="1">
+                                 <syl>zwei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="m" con="d">li</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>kannst</syl>
+                              </verse>
+                           </note>
+                           <note pname="g" oct="3" dur="8" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">ver</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">che,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">dar</syl>
+                              </verse>
+                           </note>
+                           <note pname="g" oct="3" dur="8" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="m" con="d">lieb</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">stil</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="m" con="d">in</syl>
+                              </verse>
+                           </note>
+                           <note pname="b" oct="3" dur="8" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">te</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">le</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">nen</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <slur startid="#p3m5n1" endid="#p3m5n2"/>
+                     <staff n="4">
+                        <layer>
+                           <note pname="e" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl>wenn</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">heim</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>du</syl>
+                              </verse>
+                           </note>
+                           <note pname="e" oct="3" dur="8" stem.dir="down">
+                              <verse n="1">
+                                 <syl>zwei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="m" con="d">li</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>kannst</syl>
+                              </verse>
+                           </note>
+                           <note pname="e" oct="3" dur="8" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">ver</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">che,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">dar</syl>
+                              </verse>
+                           </note>
+                           <note pname="e" oct="3" dur="8" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="m" con="d">lieb</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">stil</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="m" con="d">in</syl>
+                              </verse>
+                           </note>
+                           <note pname="e" oct="3" dur="8" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">te</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">le</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">nen</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="6">
+                     <staff n="1">
+                        <layer>
+                           <beam>
+                              <note pname="g" oct="5" dur="8" stem.dir="down" xml:id="p1m6n1">
+                                 <verse n="1">
+                                    <syl wordpos="i" con="d">Her</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl wordpos="i" con="d">Lie</syl>
+                                 </verse>
+                                 <verse n="3">
+                                    <syl wordpos="i" con="d">se</syl>
+                                 </verse>
+                              </note>
+                              <note pname="f" oct="5" dur="8" stem.dir="down" xml:id="p1m6n2"/>
+                           </beam>
+                           <note pname="f" oct="5" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">zen</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">be,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">hen,</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="5" dur="8" dots="1" stem.dir="down">
+                              <verse n="1">
+                                 <syl>bei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="u">die</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>wie</syl>
+                              </verse>
+                           </note>
+                           <note pname="e" oct="5" dur="16" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">ein</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>so</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <slur startid="#p1m6n1" endid="#p1m6n2"/>
+                     <staff n="2">
+                        <layer>
+                           <beam>
+                              <note pname="e" oct="5" dur="8" stem.dir="down" xml:id="p2m6n1">
+                                 <verse n="1">
+                                    <syl wordpos="i" con="d">Her</syl>
+                                 </verse>
+                                 <verse n="2">
+                                    <syl wordpos="i" con="d">Lie</syl>
+                                 </verse>
+                                 <verse n="3">
+                                    <syl wordpos="i" con="d">se</syl>
+                                 </verse>
+                              </note>
+                              <note pname="d" oct="5" dur="8" stem.dir="down" xml:id="p2m6n2"/>
+                           </beam>
+                           <note pname="d" oct="5" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">zen</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">be,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">hen,</syl>
+                              </verse>
+                           </note>
+                           <note pname="b" oct="4" dur="8" dots="1" stem.dir="down">
+                              <verse n="1">
+                                 <syl>bei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="u">die</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>wie</syl>
+                              </verse>
+                           </note>
+                           <note pname="c" oct="5" dur="16" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">ein</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>so</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <slur startid="#p2m6n1" endid="#p2m6n2"/>
+                     <staff n="3">
+                        <layer>
+                           <note pname="b" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">Her</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">Lie</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">se</syl>
+                              </verse>
+                           </note>
+                           <note pname="b" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">zen</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">be,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">hen,</syl>
+                              </verse>
+                           </note>
+                           <note pname="b" oct="3" dur="8" dots="1" stem.dir="down">
+                              <verse n="1">
+                                 <syl>bei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="u">die</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>wie</syl>
+                              </verse>
+                           </note>
+                           <note pname="g" oct="3" dur="16" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">ein</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>so</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer>
+                           <note pname="b" oct="2" dur="4" stem.dir="up">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">Her</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">Lie</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="i" con="d">se</syl>
+                              </verse>
+                           </note>
+                           <note pname="b" oct="2" dur="4" stem.dir="up">
+                              <verse n="1">
+                                 <syl wordpos="t">zen</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">be,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl wordpos="t">hen,</syl>
+                              </verse>
+                           </note>
+                           <note pname="d" oct="3" dur="8" dots="1" stem.dir="down">
+                              <verse n="1">
+                                 <syl>bei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="u">die</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>wie</syl>
+                              </verse>
+                           </note>
+                           <note pname="e" oct="3" dur="16" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">ein</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>so</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="7">
+                     <staff n="1">
+                        <layer>
+                           <note pname="d" oct="5" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="m" con="d">an</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">nie</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>treu</syl>
+                              </verse>
+                           </note>
+                           <note pname="d" oct="5" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">der</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">mand</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>ich</syl>
+                              </verse>
+                           </note>
+                           <note pname="c" oct="5" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl>thun</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>nicht</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>es</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer>
+                           <note pname="b" oct="4" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="m" con="d">an</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">nie</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>treu</syl>
+                              </verse>
+                           </note>
+                           <note pname="b" oct="4" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">der</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">mand</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>ich</syl>
+                              </verse>
+                           </note>
+                           <note pname="a" oct="4" dur="4" stem.dir="up">
+                              <verse n="1">
+                                 <syl>thun</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>nicht</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>es</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer>
+                           <note pname="f" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="m" con="d">an</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">nie</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>treu</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">der</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">mand</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>ich</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl>thun</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>nicht</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>es</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer>
+                           <note pname="f" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="m" con="d">an</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">nie</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>treu</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">der</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">mand</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>ich</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="2" dur="4" stem.dir="up">
+                              <verse n="1">
+                                 <syl>thun</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>nicht</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>es</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="8">
+                     <staff n="1">
+                        <layer>
+                           <note pname="b" oct="4" dur="4" dots="1" stem.dir="down" xml:id="p1m8n1">
+                              <verse n="1">
+                                 <syl con="u">stehn</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="u">weiß</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl con="u">meyn</syl>
+                              </verse>
+                           </note>
+                           <note pname="d" oct="5" dur="8" stem.dir="down"/>
+                           <beam>
+                              <note pname="c" oct="5" dur="8" stem.dir="down"/>
+                              <note pname="e" oct="5" dur="8" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer>
+                           <note pname="b" oct="4" dur="2" stem.dir="down" xml:id="p2m8n1">
+                              <verse n="1">
+                                 <syl con="u">stehn</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="u">weiß</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl con="u">meyn</syl>
+                              </verse>
+                           </note>
+                           <beam>
+                              <note pname="a" oct="4" dur="8" stem.dir="down"/>
+                              <note pname="c" oct="5" dur="8" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <slur startid="#p2m8n1" endid="#p2m10n1"/>
+                     <staff n="3">
+                        <layer>
+                           <note pname="d" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl con="u">stehn,</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="u">weiß,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl con="u">meyn,</syl>
+                              </verse>
+                           </note>
+                           <rest dur="4"/>
+                           <rest dur="4"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer>
+                           <note pname="b" oct="2" dur="4" stem.dir="up">
+                              <verse n="1">
+                                 <syl con="u">stehn,</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="u">weiß,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl con="u">meyn,</syl>
+                              </verse>
+                           </note>
+                           <rest dur="4"/>
+                           <rest dur="4"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="9">
+                     <staff n="1">
+                        <layer>
+                           <note pname="d" oct="5" dur="4" dots="1" stem.dir="down"/>
+                           <note pname="f" oct="5" dur="8" stem.dir="down"/>
+                           <beam>
+                              <note pname="e" oct="5" dur="8" stem.dir="down"/>
+                              <note pname="g" oct="5" dur="8" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <slur startid="#p1m8n1" endid="#p1m10n2"/>
+                     <staff n="2">
+                        <layer>
+                           <note pname="b" oct="4" dur="4" dots="1" stem.dir="down"/>
+                           <note pname="d" oct="5" dur="8" stem.dir="down"/>
+                           <beam>
+                              <note pname="c" oct="5" dur="8" stem.dir="down"/>
+                              <note pname="e" oct="5" dur="8" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer>
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer>
+                           <mRest/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="10">
+                     <staff n="1">
+                        <layer>
+                           <note pname="f" oct="5" dur="4" stem.dir="down"/>
+                           <note pname="b" oct="5" dur="8" stem.dir="down" xml:id="p1m10n2">
+                              <verse n="1">
+                                 <syl>,</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>,</syl>
+                              </verse>
+                           </note>
+                           <rest dur="8"/>
+                           <note pname="f" oct="5" dur="8" dots="1" stem.dir="down">
+                              <verse n="1">
+                                 <syl>bei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="u">die</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>wie</syl>
+                              </verse>
+                           </note>
+                           <note pname="e" oct="5" dur="16" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">ein</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>so</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer>
+                           <note pname="d" oct="5" dur="4" dots="1" stem.dir="down" xml:id="p2m10n1">
+                              <verse n="1">
+                                 <syl>,</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>,</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>,</syl>
+                              </verse>
+                           </note>
+                           <rest dur="8"/>
+                           <note pname="b" oct="4" dur="8" dots="1" stem.dir="down">
+                              <verse n="1">
+                                 <syl>bei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="u">die</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>wie</syl>
+                              </verse>
+                           </note>
+                           <note pname="c" oct="5" dur="16" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">ein</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>so</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer>
+                           <rest dur="4"/>
+                           <rest dur="4"/>
+                           <note pname="b" oct="3" dur="8" dots="1" stem.dir="down">
+                              <verse n="1">
+                                 <syl>bei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="u">die</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>wie</syl>
+                              </verse>
+                           </note>
+                           <note pname="g" oct="3" dur="16" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">ein</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>so</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer>
+                           <rest dur="4"/>
+                           <rest dur="4"/>
+                           <note pname="d" oct="3" dur="8" dots="1" stem.dir="down">
+                              <verse n="1">
+                                 <syl>bei</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl con="u">die</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>wie</syl>
+                              </verse>
+                           </note>
+                           <note pname="e" oct="3" dur="16" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="i" con="d">ein</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>so</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="11">
+                     <staff n="1">
+                        <layer>
+                           <note pname="d" oct="5" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="m" con="d">an</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">nie</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>treu</syl>
+                              </verse>
+                           </note>
+                           <note pname="d" oct="5" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">der</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">mand</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>ich</syl>
+                              </verse>
+                           </note>
+                           <note pname="c" oct="5" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl>thun</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>nicht</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>es</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer>
+                           <note pname="b" oct="4" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="m" con="d">an</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">nie</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>treu</syl>
+                              </verse>
+                           </note>
+                           <note pname="b" oct="4" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">der</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">mand</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>ich</syl>
+                              </verse>
+                           </note>
+                           <note pname="a" oct="4" dur="4" stem.dir="up">
+                              <verse n="1">
+                                 <syl>thun</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>nicht</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>es</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer>
+                           <note pname="f" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="m" con="d">an</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">nie</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>treu</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">der</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">mand</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>ich</syl>
+                              </verse>
+                           </note>
+                           <note pname="e" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl>thun</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>nicht</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>es</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer>
+                           <note pname="f" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="m" con="d">an</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="i" con="d">nie</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>treu</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="3" dur="4" stem.dir="down">
+                              <verse n="1">
+                                 <syl wordpos="t">der</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl wordpos="t">mand</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>ich</syl>
+                              </verse>
+                           </note>
+                           <note pname="f" oct="2" dur="4" stem.dir="up">
+                              <verse n="1">
+                                 <syl>thun</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>nicht</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>es</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="12" right="end">
+                     <staff n="1">
+                        <layer>
+                           <note pname="b" oct="4" dur="2" stem.dir="down">
+                              <verse n="1">
+                                 <syl>stehn.</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>weiß.</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>meyn'!</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer>
+                           <note pname="f" oct="4" dur="2" stem.dir="up">
+                              <verse n="1">
+                                 <syl>stehn.</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>weiß.</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>meyn'!</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer>
+                           <note pname="d" oct="3" dur="2" stem.dir="down">
+                              <verse n="1">
+                                 <syl>stehn.</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>weiß.</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>meyn'!</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer>
+                           <note pname="b" oct="2" dur="2" stem.dir="up">
+                              <verse n="1">
+                                 <syl>stehn.</syl>
+                              </verse>
+                              <verse n="2">
+                                 <syl>weiß.</syl>
+                              </verse>
+                              <verse n="3">
+                                 <syl>meyn'!</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+                <div type="songtext" xml:lang="de">
+                    <div type="normalized">
+                       <lg type="poem">
+                            <head>Wonne des Liebenden</head>
+                            <lg type="stanza" n="1">
+                                 <l>Keine Rose, keine Nelke</l>
+                                 <l>Kann blühen so schön,</l>
+                                 <l>Als wenn zwei verliebte Herzen</l>
+                                 <l>Bei einander thun stehn.</l>
+                            </lg>
+                            <lg type="stanza" n="2">
+                                <l>Keine Kohle, kein Feuer</l>
+                                <l>Kann brennen so heiß,</l>
+                                <l>Als heimliche, stille Liebe</l>
+                                <l>Von der Niemand nichts weiß.</l>
+                            </lg>
+                            <lg type="stanza" n="3">
+                                <l>Setz' du mir einen Spiegel</l>
+                                <l>In's Herze hinein,</l>
+                                <l>Daß du kannst darinnen sehen</l>
+                                <l>Wie so treu ich es mein'!</l>
+                            </lg>
+                        </lg>
+                    </div>
+                </div>
+                <div type="textTemplate">
+                    <p>Volkslied, Autor und Textvorlage unbekannt.</p>
+                </div>
+                <div type="otherSettings">
+                    <list form="simple">
+                       <head>Parallelvertonungen:</head>
+                       <li>
+                            <persName>Johann Heuchemer</persName>: <title>Kein Feuer, keine Kohle</title>, Nr. 3 aus: <title>Sechs Lieder für gemischten Chor</title>, Op. 8 (1858).</li>
+                       <li>
+                            <persName>Johannes Brahms</persName>: <title>Heimliche Liebe</title>, Nr. 13 aus: <title>20 Deutsche Volkslieder</title>, WoO. posth. 38 (1859-62).</li>
+                    </list>
+                 </div>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

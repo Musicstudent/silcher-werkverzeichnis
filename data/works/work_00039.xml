@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://music-encoding.org/schema/4.0.0/mei-all.rng application/xml http://purl.oclc.org/dsdl/schematron?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="work_00039">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <pubStmt>
+            <unpub/>
+         </pubStmt>
+         <sourceDesc>
+            <source/>
+         </sourceDesc>
+      </fileDesc>
+      <workList>
+         <work type="vocal collection">
+            <identifier type="opus" n="39"/>
+            <title type="main" xml:id="work_00039_title"/>
+            <composer>
+               <persName/>
+            </composer>
+            <arranger>
+               <persName/>
+            </arranger>
+            <editor/>
+            <creation/>
+            <history>
+               <eventList>
+                  <event type="publication">
+                     <date/>
+                  </event>
+               </eventList>
+            </history>
+            <langUsage>
+               <language/>
+            </langUsage>
+            <perfMedium>
+               <perfResList>
+                  <perfRes/>
+               </perfResList>
+            </perfMedium>
+            <notesStmt>
+               <annot/>
+            </notesStmt>
+            <expressionList>
+               <expression>
+                  <title corresp="#work_00039_title"/>
+               </expression>
+            </expressionList>
+            <componentList>
+               <work type="" n="001" corresp="#work_00039_001">
+                  <identifier type="no">1</identifier>
+                  <title xml:lang="de" corresp="#work_00039_001_title">
+                     <titlePart type="main">Bairisches Volksliedchen</titlePart>
+                  </title>
+               </work>
+               <work type="" n="002" corresp="#work_00039_002">
+                  <identifier type="no">2</identifier>
+                  <title xml:lang="de" corresp="#work_00039_002_title">
+                     <titlePart type="main">Böse Zeit</titlePart>
+                  </title>
+               </work>
+               <work type="" n="003" corresp="#work_00039_003">
+                  <identifier type="no">3</identifier>
+                  <title xml:lang="de" corresp="#work_00039_003_title">
+                     <titlePart type="main">Schlacht-Lied</titlePart>
+                  </title>
+               </work>
+               <work type="" n="004" corresp="#work_00039_004">
+                  <identifier type="no">4</identifier>
+                  <title xml:lang="de" corresp="#work_00039_004_title">
+                     <titlePart type="main">Abschied</titlePart>
+                  </title>
+               </work>
+               <work type="" n="005" corresp="#work_00039_005">
+                  <identifier type="no">5</identifier>
+                  <title xml:lang="de" corresp="#work_00039_005_title">
+                     <titlePart type="main">Der Soldat</titlePart>
+                  </title>
+               </work>
+               <work type="" n="006" corresp="#work_00039_006">
+                  <identifier type="no">6</identifier>
+                  <title xml:lang="de" corresp="#work_00039_006_title">
+                     <titlePart type="main">Altes Minnelied</titlePart>
+                  </title>
+               </work>
+               <work type="" n="007" corresp="#work_00039_007">
+                  <identifier type="no">7</identifier>
+                  <title xml:lang="de" corresp="#work_00039_007_title">
+                     <titlePart type="main">Böhmisches Volkslied</titlePart>
+                  </title>
+               </work>
+               <work type="" n="008" corresp="#work_00039_008">
+                  <identifier type="no">8</identifier>
+                  <title xml:lang="de" corresp="#work_00039_008_title">
+                     <titlePart type="main">Die Soldatenbraut</titlePart>
+                  </title>
+               </work>
+               <work type="" n="009" corresp="#work_00039_009">
+                  <identifier type="no">9</identifier>
+                  <title xml:lang="de" corresp="#work_00039_009_title">
+                     <titlePart type="main">Oberschwäbisches Tanzliedchen</titlePart>
+                  </title>
+               </work>
+               <work type="" n="010" corresp="#work_00039_010">
+                  <identifier type="no">10</identifier>
+                  <title xml:lang="de" corresp="#work_00039_010_title">
+                     <titlePart type="main">Jägerlied</titlePart>
+                  </title>
+               </work>
+               <work type="" n="011" corresp="#work_00039_011">
+                  <identifier type="no">11</identifier>
+                  <title xml:lang="de" corresp="#work_00039_011_title">
+                     <titlePart type="main">Die drei Schwestern</titlePart>
+                  </title>
+               </work>
+               <work type="" n="012" corresp="#work_00039_012">
+                  <identifier type="no">12</identifier>
+                  <title xml:lang="de" corresp="#work_00039_012_title">
+                     <titlePart type="main">Die drei Röselein</titlePart>
+                  </title>
+               </work>
+               <work type="" n="013" corresp="#work_00039_013">
+                  <identifier type="no">13</identifier>
+                  <title xml:lang="de" corresp="#work_00039_013_title">
+                     <titlePart type="main">Zorn- und Straflied</titlePart>
+                  </title>
+               </work>
+            </componentList>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation/>
+      </manifestationList>
+   </meiHead>
+   <music>
+      <facsimile/>
+      <body>
+         <mdiv n="1" corresp="#work_00039_001"/>
+         <mdiv n="2" corresp="#work_00039_002"/>
+         <mdiv n="3" corresp="#work_00039_003"/>
+         <mdiv n="4" corresp="#work_00039_004"/>
+         <mdiv n="5" corresp="#work_00039_005"/>
+         <mdiv n="6" corresp="#work_00039_006"/>
+         <mdiv n="7" corresp="#work_00039_007"/>
+         <mdiv n="8" corresp="#work_00039_008"/>
+         <mdiv n="9" corresp="#work_00039_009"/>
+         <mdiv n="10" corresp="#work_00039_010"/>
+         <mdiv n="11" corresp="#work_00039_011"/>
+         <mdiv n="12" corresp="#work_00039_012"/>
+         <mdiv n="13" corresp="#work_00039_013"/>
+      </body>
+   </music>
+</mei>

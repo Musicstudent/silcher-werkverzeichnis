@@ -1,0 +1,22 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/silcherWerkverzeichnis/resources/viewer/openseadragon" version="1" owner="admin" group="dba" mode="755" created="2021-03-20T12:11:45.264Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="changelog.txt" skip="no" owner="admin" group="dba" mode="644" created="2021-03-20T12:12:17.978Z" modified="2021-03-20T12:12:17.978Z" filename="changelog.txt" mimetype="text/plain">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="LICENSE.txt" skip="no" owner="admin" group="dba" mode="644" created="2021-03-20T12:12:18.038Z" modified="2021-03-20T12:12:18.038Z" filename="LICENSE.txt" mimetype="text/plain">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="openseadragon.js" skip="no" owner="admin" group="dba" mode="644" created="2021-03-20T12:12:18.099Z" modified="2021-03-20T12:12:18.099Z" filename="openseadragon.js" mimetype="application/javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="openseadragon.js.map" skip="no" owner="admin" group="dba" mode="644" created="2021-03-20T12:12:18.179Z" modified="2021-03-20T12:12:18.179Z" filename="openseadragon.js.map" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="openseadragon.min.js" skip="no" owner="admin" group="dba" mode="644" created="2021-03-20T12:12:18.249Z" modified="2021-03-20T12:12:18.249Z" filename="openseadragon.min.js" mimetype="application/javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="openseadragon.min.js.map" skip="no" owner="admin" group="dba" mode="644" created="2021-03-20T12:12:18.309Z" modified="2021-03-20T12:12:18.309Z" filename="openseadragon.min.js.map" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="images" filename="images"/>
+</collection>

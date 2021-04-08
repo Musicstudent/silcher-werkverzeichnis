@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pers_00004" xml:lang="de" role="composer">
+   <persName>
+      <forename sort="2">Ludwig</forename>
+      <nameLink sort="2">van</nameLink>
+      <surname sort="3">Beethoven</surname>
+   </persName>
+   <birth>
+      <date notAfter="1770-12-17">17. Dezember 1770 (Taufe)</date>
+      <placeName>
+         <settlement>Bonn</settlement>
+      </placeName>
+   </birth>
+   <death>
+      <date when="1827-03-26"/>
+      <placeName>
+         <settlement>Wien</settlement>
+      </placeName>
+   </death>
+   <sex value="M"/>
+   <nationality key="de"/>
+   <occupation>Komponist</occupation>
+   <idno type="GND" xml:base="http://d-nb.info/gnd/">118508288</idno>
+   <idno type="MGG" xml:base="https://www.mgg-online.com/mgg/stable/">19165</idno>
+   <idno type="VIAF" xml:base="http://viaf.org/viaf/">32182557</idno>
+   <listBibl>
+      <bibl/>
+   </listBibl>
+</person>

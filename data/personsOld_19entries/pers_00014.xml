@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pers_00014" xml:lang="de" role="composer">
+   <persName>
+      <surname>Herbeck</surname>
+   </persName>
+   <birth>
+      <date/>
+      <placeName>
+         <settlement/>
+      </placeName>
+   </birth>
+   <death>
+      <date/>
+      <placeName>
+         <settlement/>
+      </placeName>
+   </death>
+   <sex/>
+   <nationality/>
+   <occupation>Komponist</occupation>
+   <listBibl>
+      <bibl/>
+   </listBibl>
+</person>

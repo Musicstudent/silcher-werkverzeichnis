@@ -1,0 +1,21 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/silcherWerkverzeichnis/templates" version="1" owner="admin" group="dba" mode="775" created="2020-12-03T14:39:50.771Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="view-database.html" skip="no" owner="admin" group="dba" mode="644" created="2020-12-07T10:32:31.305Z" modified="2021-04-07T15:39:39.862Z" filename="view-database.html" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="page.html" skip="no" owner="admin" group="dba" mode="664" created="2020-12-03T14:39:50.775Z" modified="2020-12-07T10:57:48.867Z" filename="page.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="landingPage.html" skip="no" owner="admin" group="dba" mode="644" created="2020-12-03T14:51:29.106Z" modified="2021-03-31T11:55:14.59Z" filename="landingPage.html" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="error-page.html" skip="no" owner="admin" group="dba" mode="644" created="2020-12-03T15:25:23.24Z" modified="2020-12-03T15:25:23.24Z" filename="error-page.html" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="footer.html" skip="no" owner="admin" group="dba" mode="644" created="2020-12-03T15:26:05.07Z" modified="2021-04-07T15:33:26.89Z" filename="footer.html" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="navbar.html" skip="no" owner="admin" group="dba" mode="644" created="2020-12-03T15:26:50.598Z" modified="2021-04-07T15:34:44.903Z" filename="navbar.html" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>
