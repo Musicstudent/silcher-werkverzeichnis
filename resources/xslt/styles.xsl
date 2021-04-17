@@ -9,10 +9,19 @@
     </xsl:template>
     
     <xsl:template match="title">
-        <em><xsl:apply-templates/></em>
+        <em>
+            <xsl:apply-templates/>
+        </em>
+    </xsl:template>
+    
+    <xsl:template match="persName[@auth]">
+        <a href="{concat('http://localhost:8080/exist/apps/silcherWerkverzeichnis/person/', @auth)}">
+            <xsl:apply-templates/>
+        </a>
     </xsl:template>
     
     <xsl:template match="text()">
         <xsl:value-of select="."/>
     </xsl:template>
+    
 </xsl:stylesheet>

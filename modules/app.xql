@@ -60,7 +60,7 @@ declare %templates:wrap function app:showFilter($node as node(), $model as map(*
     <div class="form-row">
         <div class="form-group col-md-4 mx-4">
             <div class="form-row mb-3">
-                <label for="freitextsuche">Freitextsuche nach Liedtiteln</label>
+                <label for="freitextsuche">Suche nach Liedtiteln</label>
                 <input type="freitext" class="form-control" id="freitextsuche"/>
             </div>
             <div class="form-row">
@@ -184,7 +184,7 @@ declare %templates:wrap function app:viewWork($node as node(), $model as map(*))
                             then ($work//mei:work/mei:lyricist/mei:persName/@auth)
                             else ()
     let $dedication := if ($work//mei:work//mei:creation/mei:dedication)
-                            then (normalize-space($work//mei:work//mei:creation/mei:dedication))
+                            then (transform:transform($work//mei:work//mei:creation/mei:dedication, doc("/db/apps/silcherWerkverzeichnis/resources/xslt/styles.xsl"), ()))
                             else ()
     let $ambitus := if ($work//mei:score//mei:staffDef/mei:ambitus)
                         then (shared:getAmbitus($work//mei:score//mei:staffDef/mei:ambitus))
@@ -258,27 +258,36 @@ declare %templates:wrap function app:viewWork($node as node(), $model as map(*))
                             return
                                 <div>{$textJoined}</div>
     let $textTemplate := if ($work//mei:div[@type = 'textTemplate'])
-                            then ($work//mei:div[@type = 'textTemplate']/mei:p/text())
+                            then (transform:transform($work//mei:div[@type = 'textTemplate']/mei:p, doc("/db/apps/silcherWerkverzeichnis/resources/xslt/styles.xsl"), ()))
                             else ()
     let $otherSettings := if ($work//mei:div[@type = 'otherSettings']/mei:list)
                                 then ($work//mei:div[@type = 'otherSettings']/mei:list/mei:li)
                                 else ()
     let $showSettings := for $setting in $otherSettings
                             return
-                                <p>{transform:transform($setting, doc("../resources/xslt/styles.xsl"), ())}</p>
+                                <p>{transform:transform($setting, doc("/db/apps/silcherWerkverzeichnis/resources/xslt/styles.xsl"), ())}</p>
     let $score := if ($work//mei:music//mei:score)
                     then ($work//mei:music//mei:score)
                     else ()
     return
         (<div class="page-header">
             <h2>{$workTitle}</h2>
+            {if ($workId = 'work_01000_002') then (
+            <div class="d-flex flex-row justify-content-between">
+                <h5>WoO</h5>
+                <audio controls="controls">
+                    <source src="../resources/audio/test2.mp3" type="audio/mpeg"/>
+                    Your browser does not support the audio element.
+                </audio>
+            </div>)
+            else (
             <h5>{if ($opus != 'WoO' and $workNumber)
                     then(concat('Opus ', $opus, ', Nr. ', $workNumber))
                  else if ($opus != 'WoO')
                     then(concat('Opus ', $opus))
                  else if ($opus = 'WoO') then ($opus)
                  else('Fehler!')}
-            </h5>
+            </h5>)}
         </div>,
         <hr/>,
         <div class="container">
@@ -381,9 +390,14 @@ declare %templates:wrap function app:viewWork($node as node(), $model as map(*))
                         <div class="container ml-5 p-0">
                             <div class="list-group">
                                 <!-- <h3 class="text-center">Edition des Notentextes</h3> -->
-                                <div class="panel-body my-3">
-                                    <div id="app" class="panel w-100" style="border: 1px solid lightgray; min-height: 800px"></div>
-                                </div>
+                                {if ($workId = 'work_01000_002') then (
+                                    <div class="score d-flex flex-column align-items-center">
+                                        <iframe src="../resources/images/test2.pdf" width="100%" height="700px" class="mb-3"></iframe>
+                                    </div>
+                                    )
+                                else (<div class="panel-body my-3">
+                                        <div id="app" class="panel w-100" style="border: 1px solid lightgray; min-height: 800px"></div>
+                                     </div>)}
                             </div>
                         </div>
                     </div>
@@ -644,6 +658,8 @@ declare %templates:wrap function app:showPersons($node as node(), $model as map(
         $cards
 };
 
+
+
 (:  <!--<tr>
                             <td><a href="person/{$persId}" target="_blank">{$persId}</a></td>
                             <td>{if ($persName) then ($persName) else ($persNameFull)}</td>
@@ -701,4 +717,3 @@ declare %templates:wrap function app:dropdown($node as node(), $model as map(*))
             <option value="dedicatee"><span>Widmungsträger/in</span><span> ({count($persons[contains(@role, 'dedicatee')])})</span></option>
         </select>
 };
-

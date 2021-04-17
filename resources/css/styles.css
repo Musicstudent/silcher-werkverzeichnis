@@ -1,4 +1,7 @@
 /* Generelle Styles für verschiedene Seiten */
+html {
+    scroll-behavior: smooth;
+}
 div.background {
     background-image: url("../images/Silcher_Hochzeitsbild.jpg");
     background-repeat: no-repeat;
@@ -50,6 +53,9 @@ div.col-4 {
     border-radius: 25px;
     margin: 0.8rem;
     background-color: white;
+}
+#searchResults .row {
+    margin-bottom: 0px;
 }
 .s-title {
     margin-bottom: 20px;
@@ -197,3 +203,41 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+/* lilypond-score*/
+
+
+
+.catStickyTop {
+    margin-left: 100%;
+    padding: 0px;
+    padding-left: 40px;
+    width: 48px;
+    height: 48px;
+    position: sticky;
+    bottom: 100px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.catStickyTop svg {
+    padding: 0px;
+    margin: 0px;
+    opacity: 0.7;
+}
+.spinning {
+    animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
+
+
+

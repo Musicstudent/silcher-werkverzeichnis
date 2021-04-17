@@ -1,9 +1,9 @@
 <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/silcherWerkverzeichnis/resources/css" version="1" owner="admin" group="dba" mode="755" created="2020-12-03T17:08:33.086Z">
     <acl entries="0" version="1"/>
-    <resource type="BinaryResource" name="map-styles.css" skip="no" owner="admin" group="dba" mode="644" created="2021-04-07T14:39:33.573Z" modified="2021-04-07T15:38:24.134Z" filename="map-styles.css" mimetype="text/css">
+    <resource type="BinaryResource" name="styles.css" skip="no" owner="admin" group="dba" mode="644" created="2020-12-03T18:39:53.894Z" modified="2021-04-15T19:25:27.599Z" filename="styles.css" mimetype="text/css">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="BinaryResource" name="styles.css" skip="no" owner="admin" group="dba" mode="644" created="2020-12-03T18:39:53.894Z" modified="2021-04-07T17:49:14.734Z" filename="styles.css" mimetype="text/css">
+    <resource type="BinaryResource" name="map-styles.css" skip="no" owner="admin" group="dba" mode="644" created="2021-04-07T14:39:33.573Z" modified="2021-04-07T15:38:24.134Z" filename="map-styles.css" mimetype="text/css">
         <acl entries="0" version="1"/>
     </resource>
 </collection>

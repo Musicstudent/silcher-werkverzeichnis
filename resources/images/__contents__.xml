@@ -1,5 +1,8 @@
 <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/silcherWerkverzeichnis/resources/images" version="1" owner="admin" group="dba" mode="755" created="2020-12-03T16:21:16.752Z">
     <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="test2.pdf" skip="no" owner="admin" group="dba" mode="644" created="2021-04-09T15:17:15.471Z" modified="2021-04-09T15:17:15.471Z" filename="test2.pdf" mimetype="application/pdf">
+        <acl entries="0" version="1"/>
+    </resource>
     <resource type="BinaryResource" name="Silcher_Dirigent_Karikatur.jpg" skip="no" owner="admin" group="dba" mode="644" created="2020-12-27T20:39:27.3Z" modified="2020-12-27T20:39:27.3Z" filename="Silcher_Dirigent_Karikatur.jpg" mimetype="image/jpeg">
         <acl entries="0" version="1"/>
     </resource>

@@ -5,4 +5,5 @@
     <subcollection name="js" filename="js"/>
     <subcollection name="xslt" filename="xslt"/>
     <subcollection name="viewer" filename="viewer"/>
+    <subcollection name="audio" filename="audio"/>
 </collection>

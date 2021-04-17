@@ -123,3 +123,5 @@ declare function shared:setClasses($workNumber as node()?, $opus as node(), $com
     return
         concat($class1, ' ', $class2, ' ', $class3, ' ', $class4)
 };
+
+

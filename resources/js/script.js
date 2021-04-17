@@ -1,3 +1,6 @@
+let titleSwitch = false
+let numberSwitch = false
+let idSwitch = false
 
 function start() {
     
@@ -31,7 +34,30 @@ function start() {
         })
     }
     else if (window.location.href.includes('registryPersons')) {
+        document.querySelector('#load-icon').style.display = 'none'
         submit.addEventListener('click', sendUserInputPerson)
+        console.log(document.getElementById('search-name'))
+        document.getElementById('search-name').addEventListener('keydown', (event) => {
+            if(event.keyCode == 13) {
+                sendUserInputPerson()
+                event.preventDefault()
+            }
+        })
+        
+        let scrollTop = document.querySelector('.catStickyTop')
+        document.addEventListener('scroll', () => {
+            if (window.scrollY > '600') {
+                scrollTop.style.opacity = 1
+                scrollTop.style.pointerEvents = 'auto'
+            }
+            else {
+                scrollTop.style.opacity = 0;
+                scrollTop.style.pointerEvents = 'none'
+            }
+        })
+        scrollTop.addEventListener('click', () => {
+                    window.scrollTo(0, 100);
+        })
     }
 }
 
@@ -50,14 +76,21 @@ function sendUserInputWork() {
 }
 
 function sendUserInputPerson() {
+    console.log('aaa')
     const searchTerm = document.querySelector('#search-name').value
     const relation = document.querySelector('#dropdown').value
     const url = `/exist/apps/silcherWerkverzeichnis/searchPerson?searchTerm=${searchTerm}%26relation=${relation}`
     const searchResults = document.querySelector('#searchResults')
+    const cards = document.querySelectorAll('.card')
+    cards.forEach(card => card.style.opacity = 0)
+    const loadIcon = document.querySelector('#load-icon')
+    loadIcon.style.display = 'block'
     fetch(url)
         .then(response => response.text())
         .then(data => {
-            searchResults.innerHTML = data,
+            cards.forEach(card => card.style.opacity = 1)
+            loadIcon.style.display = 'none'
+            searchResults.innerHTML = data
             countRows()
         })
         .catch(error => console.error(error))
@@ -168,151 +201,94 @@ function countRows() {
     count.id = 'searchCount'
     count.textContent = `Die Suche ergab ${number} Treffer.`
     div.appendChild(count)
-};
+}
 
 function sortTable(event) {
-    let table, rows, switching, i, n, x, y, shouldSwitch, dir, switchcount = 0;
-    let id = event.target.parentElement.id
-    console.log(id)
-    if (id == 'sort-number') {n = 0}
-    else if (id == 'sort-title') {n = 1}
-    else if (id == 'sort-id') {n = 2}
-    console.log(n)
-    table = document.getElementById("searchResults");
-    switching = true;
-    //Set the sorting direction to ascending:
-    dir = "asc"; 
-    /*Make a loop that will continue until no switching has been done:*/
-    while (switching) {
-        //start by saying: no switching is done:
-        switching = false;
-        rows = table.rows;
-        /*Loop through all table rows (except the first, which contains table headers):*/
-        for (i = 0; i < (rows.length - 1); i++) {
-            //start by saying there should be no switching:
-            shouldSwitch = false;
-            /*Get the two elements you want to compare, one from current row and one from the next:*/
-            x = rows[i].getElementsByTagName("TD")[n];
-            y = rows[i + 1].getElementsByTagName("TD")[n];
-            /*check if the two rows should switch place, based on the direction, asc or desc:*/
-            if (n == 0) {
-                xSubstringStart = x.innerText.substring(0, 3)
-                ySubstringStart = y.innerText.substring(0, 3)
-                xSubstringOpus = x.innerText.substring(5, x.innerText.indexOf(','))
-                ySubstringOpus = y.innerText.substring(5, y.innerText.indexOf(','))
-                xSubstringNumber = x.innerText.substring(x.innerText.lastIndexOf(' '))
-                ySubstringNumber = y.innerText.substring(y.innerText.lastIndexOf(' '))
-                if (dir == "asc") {
-                    if (xSubstringStart.toLowerCase() > ySubstringStart.toLowerCase()) {
-                        //if so, mark as a switch and break the loop:
-                        shouldSwitch= true;
-                        break;
-                    }
-                    else if (xSubstringStart.toLowerCase() == ySubstringStart.toLowerCase()) {
-                        if (Number(xSubstringOpus) > Number(ySubstringOpus)) {
-                            //if so, mark as a switch and break the loop:
-                            shouldSwitch = true;
-                            break;
-                        }
-                        else if (Number(xSubstringOpus) == Number(ySubstringOpus)) {
-                            if (Number(xSubstringNumber) > Number(ySubstringNumber)) {
-                                //if so, mark as a switch and break the loop:
-                                shouldSwitch = true;
-                                break;
-                            }
-                        }
-                    }
-                }
-                else if (dir == "desc") {
-                    if (xSubstringStart.toLowerCase() < ySubstringStart.toLowerCase()) {
-                        //if so, mark as a switch and break the loop:
-                        shouldSwitch= true;
-                        break;
-                    }
-                    else if (xSubstringStart.toLowerCase() == ySubstringStart.toLowerCase()) {
-                        if (Number(xSubstringOpus) < Number(ySubstringOpus)) {
-                            //if so, mark as a switch and break the loop:
-                            shouldSwitch = true;
-                            break;
-                        }
-                        else if (Number(xSubstringOpus) == Number(ySubstringOpus)) {
-                            if (Number(xSubstringNumber) < Number(ySubstringNumber)) {
-                                //if so, mark as a switch and break the loop:
-                                shouldSwitch = true;
-                                break;
-                            }
-                        }
-                    }
-                }
+    
+    //for each table row create an object with its data and store it into an array
+    let sortItems = []
+    const sortContainer = document.querySelector('#searchResults')
+    const rows = document.querySelectorAll('#searchResults > tr')
+    rows.forEach(row => {
+        const number = row.children.item(0).textContent
+        const title = row.children.item(1).textContent
+        const id = row.children.item(2).textContent
+        sortItems.push({ elt: row, number: number, title: title, id: id })
+    })
+    
+    //sort alphabetically or by number according to the clicked column
+    if (event.target.parentElement.id === 'sort-title') {
+        //call function sortData() with callback-function as argument
+        sortData((a, b) => {
+            if (!titleSwitch) {
+                if (b.title > a.title) return -1
+                else return 1
+            } else {
+                if (b.title < a.title) return -1
+                else return 1
             }
-            if (n == 1) {
-                if (dir == "asc") {
-                    if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-                        //if so, mark as a switch and break the loop:
-                        shouldSwitch= true;
-                        break;
-                    }
-                }
-                else if (dir == "desc") {
-                    if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
-                        //if so, mark as a switch and break the loop:
-                        shouldSwitch = true;
-                        break;
-                    }
-                }
-            }
-            if (n == 2) {
-                xSubstringOpus = x.innerText.substr(5, 5)
-                ySubstringOpus = y.innerText.substr(5, 5)
-                if (dir == "asc") {
-                    if (Number(xSubstringOpus) > Number(ySubstringOpus)) {
-                        //if so, mark as a switch and break the loop:
-                        shouldSwitch = true;
-                        break;
-                    }
-                    else if (Number(xSubstringOpus) == Number(ySubstringOpus)) {
-                        xSubstringNumber = x.innerText.substring(x.innerText.length - 3)
-                        ySubstringNumber = y.innerText.substring(y.innerText.length - 3)
-                        if (Number(xSubstringNumber) > Number(ySubstringNumber)) {
-                            //if so, mark as a switch and break the loop:
-                            shouldSwitch = true;
-                            break;
-                        }
-                    }
-                }
-                else if (dir == "desc") {
-                    if (Number(xSubstringOpus) < Number(ySubstringOpus)) {
-                        //if so, mark as a switch and break the loop:
-                        shouldSwitch = true;
-                        break;
-                    }
-                    else if (Number(xSubstringOpus) == Number(ySubstringOpus)) {
-                        xSubstringNumber = x.innerText.substring(x.innerText.length - 3)
-                        ySubstringNumber = y.innerText.substring(y.innerText.length - 3)
-                        if (Number(xSubstringNumber) < Number(ySubstringNumber)) {
-                            //if so, mark as a switch and break the loop:
-                            shouldSwitch = true;
-                            break;
-                        }
-                    }
-                }
-            }
+        })
+        titleSwitch = !titleSwitch
+    }
+    else if (event.target.parentElement.id === 'sort-number') {
+        //sort by Opus Number
+        sortData((a, b) => {
+            a = a.number.split(/[\s,]/)[1]
+            b = b.number.split(/[\s,]/)[1]
+            if (!numberSwitch) return a - b
+            else return b - a
+        })
+        //group all rows with the same Opus Number
+        const grouped = groupBy(sortItems, item => item.number.split(/[\s,]/)[1]);
+        //sort by Work Number inside every Opus group
+        grouped.forEach((value, key) => {
+            sortItems = value
+            sortData((a, b) => {
+                a = a.number.split(/[\s,]/)[4]
+                b = b.number.split(/[\s,]/)[4]
+                if (!numberSwitch) return a - b
+                else return b - a
+            })
+        })
+        numberSwitch = !numberSwitch
+    }
+    else if (event.target.parentElement.id === 'sort-id') {
+        sortData((a, b) => {
+            a = Number(Number(a.id.split('_')[1]) + a.id.split('_')[2])
+            b = Number(Number(b.id.split('_')[1]) + b.id.split('_')[2])
+            if (!idSwitch) return a - b
+            else return b - a
+        })
+        idSwitch = !idSwitch
+    }
+    
+    //sort-function
+    function sortData(compare) {
+        //delete all rows
+        for (let item of sortItems) {
+            item.elt.remove()
         }
-        if (shouldSwitch) {
-            /*If a switch has been marked, make the switch and mark that a switch has been done:*/
-            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-            switching = true;
-            //Each time a switch is done, increase this count by 1:
-            switchcount ++;      
-        }
-        else {
-            /*If no switching has been done AND the direction is "asc", set the direction to "desc" and run the while loop again.*/
-            if (switchcount == 0 && dir == "asc") {
-                dir = "desc";
-                switching = true;
-            }
+        //compare items and rebuilt sorted table
+        sortItems.sort(compare)
+        for (let item of sortItems) {
+            sortContainer.append(item.elt)
         }
     }
-};
+    
+    //grouping function
+    function groupBy(list, keyGetter) {
+        const map = new Map();
+        list.forEach((item) => {
+             const key = keyGetter(item);
+             const collection = map.get(key);
+             if (!collection) {
+                 map.set(key, [item]);
+             } else {
+                 collection.push(item);
+             }
+        });
+        return map;
+    }
+}
 
 addEventListener('load', start);
