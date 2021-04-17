@@ -1,0 +1,6 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/silcherWerkverzeichnis/resources/audio" version="1" owner="admin" group="dba" mode="755" created="2021-04-09T15:16:16.387Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="test2.mp3" skip="no" owner="admin" group="dba" mode="644" created="2021-04-09T15:16:59.279Z" modified="2021-04-09T15:16:59.279Z" filename="test2.mp3" mimetype="audio/mpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>
