@@ -13,9 +13,9 @@
          </sourceDesc>
       </fileDesc>
       <workList>
-         <work type="vocal collection">
+         <work type="vocal male-choir collection">
             <identifier type="opus" n="14"/>
-            <title type="main" xml:id="work_00014_title"/>
+            <title type="main" xml:id="work_00014_title">Volkslieder für Männerchor, Bd. 3</title>
             <composer>
                <persName/>
             </composer>
@@ -27,7 +27,7 @@
             <history>
                <eventList>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1831-00-00"/>
                   </event>
                </eventList>
             </history>

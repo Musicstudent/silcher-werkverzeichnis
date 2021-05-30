@@ -15,7 +15,7 @@
       <workList>
          <work type="vocal collection">
             <identifier type="opus" n="16"/>
-            <title type="main" xml:id="work_00016_title"/>
+            <title type="main" xml:id="work_00016_title">Tübinger Liedertafel (Drucke), Bd. 2</title>
             <composer>
                <persName/>
             </composer>
@@ -27,7 +27,7 @@
             <history>
                <eventList>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1833-00-00"/>
                   </event>
                </eventList>
             </history>

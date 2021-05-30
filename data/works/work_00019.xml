@@ -9,7 +9,12 @@
             <unpub/>
          </pubStmt>
          <sourceDesc>
-            <source/>
+            <source>
+                <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="84" to="84"/>
+                </bibl>
+            </source>
          </sourceDesc>
       </fileDesc>
       <workList>
@@ -17,13 +22,13 @@
             <identifier type="opus" n="19"/>
             <title type="main" xml:id="work_00019_title">Nach Sevilla, nach Sevilla</title>
             <composer>
-               <persName/>
+               <persName auth="pers_00257"/>
             </composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
             <lyricist>
-               <persName/>
+               <persName auth="pers_00030"/>
             </lyricist>
             <editor/>
             <incip>
@@ -35,7 +40,7 @@
             <history>
                <eventList>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1834" cert="low"/>
                   </event>
                </eventList>
             </history>

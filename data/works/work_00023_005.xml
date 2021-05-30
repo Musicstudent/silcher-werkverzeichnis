@@ -8,7 +8,10 @@
          </pubStmt>
          <sourceDesc>
             <source>
-               <bibl/>
+               <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="113" to="113"/>
+                </bibl>
             </source>
          </sourceDesc>
       </fileDesc>
@@ -17,15 +20,14 @@
             <identifier type="opus" n="23"/>
             <identifier type="number" n="5"/>
             <title type="main" xml:id="work_00023_005_title">Und ob alles nur Trug ist und Schaum</title>
-            <composer>
-               <persName/>
-            </composer>
+            <composer>Französisches Volkslied</composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
-            <lyricist>
-               <persName/>
-            </lyricist>
+            <lyricist>Französisches Volkslied</lyricist>
+            <contributor role="translator">
+                <persName auth="pers_00156"/>
+            </contributor>
             <incip>
                <incipText>
                   <p>Und ob alles nur Trug ist und Schaum</p>
@@ -38,7 +40,7 @@
                      <date/>
                   </event>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1835-00-00"/>
                   </event>
                </eventList>
             </history>

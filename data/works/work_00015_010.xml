@@ -8,7 +8,10 @@
          </pubStmt>
          <sourceDesc>
             <source>
-               <bibl/>
+               <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="56" to="56"/>
+                </bibl>
             </source>
          </sourceDesc>
       </fileDesc>
@@ -16,15 +19,15 @@
          <work type="vocal">
             <identifier type="opus" n="15"/>
             <identifier type="number" n="10"/>
-            <title type="main" xml:id="work_00015_010_title">Schachtruf</title>
+            <title type="main" xml:id="work_00015_010_title">Schlachtruf</title>
             <composer>
-               <persName/>
+               <persName auth="pers_00273"/>
             </composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
             <lyricist>
-               <persName/>
+               <persName auth="pers_00002"/>
             </lyricist>
             <incip>
                <incipText>
@@ -38,7 +41,7 @@
                      <date/>
                   </event>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1832"/>
                   </event>
                </eventList>
             </history>

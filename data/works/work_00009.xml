@@ -15,7 +15,7 @@
       <workList>
          <work type="vocal collection">
             <identifier type="opus" n="9"/>
-            <title type="main" xml:id="work_00009_title"/>
+            <title type="main" xml:id="work_00009_title">Hymnen und Figuralgesänge, Bd. 1</title>
             <composer>
                <persName/>
             </composer>
@@ -27,7 +27,7 @@
             <history>
                <eventList>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1827-00-00"/>
                   </event>
                </eventList>
             </history>

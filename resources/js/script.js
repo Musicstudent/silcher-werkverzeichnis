@@ -36,7 +36,6 @@ function start() {
     else if (window.location.href.includes('registryPersons')) {
         document.querySelector('#load-icon').style.display = 'none'
         submit.addEventListener('click', sendUserInputPerson)
-        console.log(document.getElementById('search-name'))
         document.getElementById('search-name').addEventListener('keydown', (event) => {
             if(event.keyCode == 13) {
                 sendUserInputPerson()
@@ -61,7 +60,7 @@ function start() {
     }
 }
 
-function sendUserInputWork() {
+function sendUserInputWork(event) {
     const searchTerm = document.querySelector('#freitextsuche').value
     const collection = document.querySelector('#choose').checked
     const url = `/exist/apps/silcherWerkverzeichnis/searchWork?searchTerm=${searchTerm}%26collection=${collection}`
@@ -76,19 +75,20 @@ function sendUserInputWork() {
 }
 
 function sendUserInputPerson() {
-    console.log('aaa')
     const searchTerm = document.querySelector('#search-name').value
     const relation = document.querySelector('#dropdown').value
     const url = `/exist/apps/silcherWerkverzeichnis/searchPerson?searchTerm=${searchTerm}%26relation=${relation}`
     const searchResults = document.querySelector('#searchResults')
-    const cards = document.querySelectorAll('.card')
-    cards.forEach(card => card.style.opacity = 0)
+    searchResults.style.opacity = 0
+    //const cards = document.querySelectorAll('.card')
+    //cards.forEach(card => card.style.opacity = 0)
     const loadIcon = document.querySelector('#load-icon')
     loadIcon.style.display = 'block'
     fetch(url)
         .then(response => response.text())
         .then(data => {
-            cards.forEach(card => card.style.opacity = 1)
+            //cards.forEach(card => card.style.opacity = 1)
+            searchResults.style.opacity = 1
             loadIcon.style.display = 'none'
             searchResults.innerHTML = data
             countRows()
@@ -108,11 +108,11 @@ function applyFilter() {
         param.push('individualWork')
     }
     
-    /*if (allWorks.checked && dropdown.value == 'all') {
+    if (allWorks.checked && dropdown.value == 'all') {
         const shownWorks = document.querySelectorAll('.table tbody tr')
         shownWorks.forEach(work => work.setAttribute('style', 'display: visible'))
-    }*/
-    if (allWorks.checked && dropdown.value != 'all') {
+    }
+    else if (allWorks.checked && dropdown.value !== 'all') {
         param.push(dropdown.value)
         filterWorklist(param)
     }

@@ -61,7 +61,7 @@ declare %templates:wrap function app:showFilter($node as node(), $model as map(*
         <div class="form-group col-md-4 mx-4">
             <div class="form-row mb-3">
                 <label for="freitextsuche">Suche nach Liedtiteln</label>
-                <input type="freitext" class="form-control" id="freitextsuche"/>
+                <input type="freitext" class="form-control" id="freitextsuche" autocomplete="off"/>
             </div>
             <div class="form-row">
                 <label for="dropdown">Gattungen</label>
@@ -150,7 +150,8 @@ declare %templates:wrap function app:viewWork($node as node(), $model as map(*))
     let $persons := collection('/db/apps/silcherWerkverzeichnis/data/persons')
     let $collection := shared:getWorkCollection($work)
     let $collectionTitle := if ($collection)
-                            then (string-join($collection//mei:workList/mei:work/mei:title/string(), '. '))
+                            (: then (string-join($collection//mei:workList/mei:work/mei:title/string(), '. ')) :)
+                            then ($collection//mei:workList/mei:work/mei:title[@type = 'main']/string())
                             else ('##')
     let $collectionId := if ($collection) then ($collection/@xml:id) else ()
     let $composer := if ($work//mei:work/mei:composer/mei:persName/@auth)
@@ -504,15 +505,15 @@ declare %templates:wrap function app:viewPerson($node as node(), $model as map(*
                                     <tr scope="row">
                                         <td scope="col">Lebensdaten:</td>
                                         <td scope="col">* {if($birth)
-                                                            then(format-date(xs:date($birth), "[D]. [MNn] [Y]", "de", (), ()))
-                                                            else if ($GND)
-                                                            then (format-date(xs:date($json?dateOfBirth), "[D]. [MNn] [Y]", "de", (), ()))
+                                                            then(if(contains($birth, '-')) then(format-date(xs:date($birth), "[D]. [MNn] [Y]", "de", (), ())) else($birth))
+                                                            else if($GND)
+                                                            then (if(contains(string($json?dateOfBirth?1), '-')) then(format-date(xs:date($json?dateOfBirth?1), "[D]. [MNn] [Y]", "de", (), ())) else($json?dateOfBirth?1))
                                                             else('unbekannt')}
                                                             <br/>
                                                         &#8224; {if($death)
-                                                                    then(format-date(xs:date($death), "[D]. [MNn] [Y]", "de", (), ()))
-                                                                    else if ($GND)
-                                                                    then (format-date(xs:date($json?dateOfDeath), "[D]. [MNn] [Y]", "de", (), ()))
+                                                                    then(if(contains($death, '-')) then(format-date(xs:date($death), "[D]. [MNn] [Y]", "de", (), ())) else($death))
+                                                                    else if($GND)
+                                                                    then(if(contains($json?dateOfDeath?1, '-')) then(format-date(xs:date($json?dateOfDeath?1), "[D]. [MNn] [Y]", "de", (), ())) else($json?dateOfDeath?1))
                                                                     else('unbekannt')}
                                         </td>
                                     </tr>
@@ -604,13 +605,13 @@ declare %templates:wrap function app:showPersons($node as node(), $model as map(
 (:                                    then ($person/tei:birth/tei:date/format-date(@*, '[D]. [MNn] [Y]', 'de', (), ())):)
                                     then ($person/tei:birth/tei:date/@when)
                                     else if ($GND)
-                                    then ($json?dateOfBirth)
+                                    then (substring($json?dateOfBirth?1, 1, 4))
                                     else ('unbekannt')
                     let $death := if ($person/tei:death/tei:date/@*)
 (:                                    then ($person/tei:death/tei:date/format-date(@*, '[D]. [MNn] [Y]', 'de', (), ())):)
                                     then ($person/tei:death/tei:date/@when)
                                     else if ($GND)
-                                    then ($json?dateOfDeath)
+                                    then (substring($json?dateOfDeath?1, 1, 4))
                                     else ('unbekannt')
                     let $role := if ($person/@role and $person/tei:sex/@value)
                                     then (shared:getRoleFromPerson($person/@role, $person/tei:sex/@value))

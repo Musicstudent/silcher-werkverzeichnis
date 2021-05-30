@@ -8,7 +8,10 @@
          </pubStmt>
          <sourceDesc>
             <source>
-               <bibl/>
+               <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="32" to="32"/>
+                </bibl>
             </source>
          </sourceDesc>
       </fileDesc>
@@ -18,14 +21,17 @@
             <identifier type="number" n="9"/>
             <title type="main" xml:id="work_00014_009_title">Süß‘ Liebe liebt den Mai</title>
             <composer>
-               <persName/>
+               <persName auth="pers_00273"/>
             </composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
             <lyricist>
-               <persName/>
+               <persName auth="pers_00293"/>
             </lyricist>
+            <contributor role="translator">
+                <persName auth="pers_00294"/>
+            </contributor>
             <incip>
                <incipText>
                   <p>Ein Bursch‘ und Mägdlein flink und schön</p>
@@ -38,7 +44,7 @@
                      <date/>
                   </event>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1831-00-00"/>
                   </event>
                </eventList>
             </history>

@@ -8,7 +8,10 @@
          </pubStmt>
          <sourceDesc>
             <source>
-               <bibl/>
+               <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="111" to="111"/>
+                </bibl>
             </source>
          </sourceDesc>
       </fileDesc>
@@ -17,14 +20,13 @@
             <identifier type="opus" n="18"/>
             <identifier type="number" n="10"/>
             <title type="main" xml:id="work_00018_010_title">Robin Adair</title>
-            <composer>
-               <persName/>
-            </composer>
+            <composer>Irisches Volkslied</composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
             <lyricist>
-               <persName/>
+               <persName auth="pers_00090"/>
+               <annot>Übersetzung</annot>
             </lyricist>
             <incip>
                <incipText>
@@ -38,7 +40,7 @@
                      <date/>
                   </event>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1834-00-00"/>
                   </event>
                </eventList>
             </history>

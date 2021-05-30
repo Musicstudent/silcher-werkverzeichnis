@@ -8,7 +8,10 @@
          </pubStmt>
          <sourceDesc>
             <source>
-               <bibl/>
+               <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="66" to="66"/>
+                </bibl>
             </source>
          </sourceDesc>
       </fileDesc>
@@ -18,13 +21,13 @@
             <identifier type="number" n="2"/>
             <title type="main" xml:id="work_00012_002_title">Ruhe bei Ihr</title>
             <composer>
-               <persName/>
+               <persName auth="pers_00273"/>
             </composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
             <lyricist>
-               <persName/>
+               <persName auth="pers_00153"/>
             </lyricist>
             <incip>
                <incipText>
@@ -38,7 +41,7 @@
                      <date/>
                   </event>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1828-00-00"/>
                   </event>
                </eventList>
             </history>

@@ -13,9 +13,9 @@
          </sourceDesc>
       </fileDesc>
       <workList>
-         <work type="vocal collection">
+         <work type="vocal song collection">
             <identifier type="opus" n="20"/>
-            <title type="main" xml:id="work_00020_title"/>
+            <title type="main" xml:id="work_00020_title">Sololieder mit Klavierbegleitung</title>
             <composer>
                <persName/>
             </composer>
@@ -27,7 +27,7 @@
             <history>
                <eventList>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1834-00-00"/>
                   </event>
                </eventList>
             </history>

@@ -15,7 +15,7 @@
         <workList>
             <work type="vocal canon collection">
                 <identifier type="opus" n="6"/>
-                <title type="main" xml:id="work_00006_title">[12 Kanons]</title>
+                <title type="main" xml:id="work_00006_title">12 Kanons</title>
                 <composer>
                     <persName auth="pers_00273"/>
                 </composer>

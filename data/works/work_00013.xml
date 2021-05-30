@@ -9,7 +9,12 @@
             <unpub/>
          </pubStmt>
          <sourceDesc>
-            <source/>
+            <source>
+                <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="125" to="125"/>
+                </bibl>
+            </source>
          </sourceDesc>
       </fileDesc>
       <workList>
@@ -17,13 +22,13 @@
             <identifier type="opus" n="13"/>
             <title type="main" xml:id="work_00013_title">Wer deutsche Tugend liebet, beharrlich</title>
             <composer>
-               <persName/>
+               <persName auth="pers_00273"/>
             </composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
             <lyricist>
-               <persName/>
+               <persName auth="pers_00336"/>
             </lyricist>
             <editor/>
             <incip>
@@ -35,7 +40,7 @@
             <history>
                <eventList>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1829-00-00"/>
                   </event>
                </eventList>
             </history>

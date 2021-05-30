@@ -8,7 +8,10 @@
          </pubStmt>
          <sourceDesc>
             <source>
-               <bibl/>
+               <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="82" to="82"/>
+                </bibl>
             </source>
          </sourceDesc>
       </fileDesc>
@@ -18,14 +21,12 @@
             <identifier type="number" n="7"/>
             <title type="main" xml:id="work_00022_007_title">Lebewohl</title>
             <composer>
-               <persName/>
+               <persName auth="pers_00273"/>
             </composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
-            <lyricist>
-               <persName/>
-            </lyricist>
+            <lyricist>Volkslied</lyricist>
             <incip>
                <incipText>
                   <p>Morgen muß ich fort von hier</p>
@@ -38,7 +39,7 @@
                      <date/>
                   </event>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1835-00-00"/>
                   </event>
                </eventList>
             </history>

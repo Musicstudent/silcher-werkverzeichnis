@@ -8,7 +8,10 @@
          </pubStmt>
          <sourceDesc>
             <source>
-               <bibl/>
+               <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="31" to="31"/>
+                </bibl>
             </source>
          </sourceDesc>
       </fileDesc>
@@ -16,19 +19,17 @@
          <work type="vocal">
             <identifier type="opus" n="9"/>
             <identifier type="number" n="3"/>
-            <title type="main" xml:id="work_00009_003_title">Zum Christfest</title>
+            <title type="main" xml:id="work_00009_003_title">Zum Christfest / Es waren Hirten zu Bethlehem</title>
             <composer>
-               <persName/>
+               <persName auth="pers_00273"/>
             </composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
-            <lyricist>
-               <persName/>
-            </lyricist>
+            <lyricist>liturgisch</lyricist>
             <incip>
                <incipText>
-                  <p>Ehre sei Gott in der Höhe / Es waren Hirten zu Bethlehem (vgl)</p>
+                  <p>Ehre sei Gott in der Höhe</p>
                </incipText>
             </incip>
             <creation/>
@@ -38,7 +39,7 @@
                      <date/>
                   </event>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1827-00-00"/>
                   </event>
                </eventList>
             </history>

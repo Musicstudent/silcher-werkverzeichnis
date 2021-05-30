@@ -8,7 +8,10 @@
          </pubStmt>
          <sourceDesc>
             <source>
-               <bibl/>
+               <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="117" to="117"/>
+                </bibl>
             </source>
          </sourceDesc>
       </fileDesc>
@@ -18,10 +21,10 @@
             <identifier type="number" n="2"/>
             <title type="main" xml:id="work_00015_002_title">Waldesdunkel</title>
             <composer>
-               <persName/>
+               <persName auth="pers_00335"/>
             </composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
             <lyricist>
                <persName/>
@@ -38,7 +41,7 @@
                      <date/>
                   </event>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1831-00-00" cert="low"/>
                   </event>
                </eventList>
             </history>

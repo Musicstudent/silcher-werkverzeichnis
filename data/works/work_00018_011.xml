@@ -8,7 +8,10 @@
          </pubStmt>
          <sourceDesc>
             <source>
-               <bibl/>
+               <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="126" to="126"/>
+                </bibl>
             </source>
          </sourceDesc>
       </fileDesc>
@@ -18,13 +21,13 @@
             <identifier type="number" n="11"/>
             <title type="main" xml:id="work_00018_011_title">Herr Ulrich</title>
             <composer>
-               <persName/>
+               <persName auth="pers_00073"/>
             </composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
             <lyricist>
-               <persName/>
+               <persName auth="pers_00073"/>
             </lyricist>
             <incip>
                <incipText>
@@ -38,7 +41,7 @@
                      <date/>
                   </event>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1834-00-00"/>
                   </event>
                </eventList>
             </history>

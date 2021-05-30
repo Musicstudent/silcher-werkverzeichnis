@@ -8,7 +8,10 @@
          </pubStmt>
          <sourceDesc>
             <source>
-               <bibl/>
+               <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="5" to="5"/>
+                </bibl>
             </source>
          </sourceDesc>
       </fileDesc>
@@ -18,14 +21,12 @@
             <identifier type="number" n="7"/>
             <title type="main" xml:id="work_00014_007_title">Die Prager Schlacht</title>
             <composer>
-               <persName/>
+               <persName auth="pers_00273"/>
             </composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
-            <lyricist>
-               <persName/>
-            </lyricist>
+            <lyricist>Volkslied (Knaben Wunderhorn)</lyricist>
             <incip>
                <incipText>
                   <p>Als die Preußen marschierten vor Prag</p>
@@ -38,7 +39,7 @@
                      <date/>
                   </event>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1831-00-00"/>
                   </event>
                </eventList>
             </history>

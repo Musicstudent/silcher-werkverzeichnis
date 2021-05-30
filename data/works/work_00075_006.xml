@@ -16,7 +16,7 @@
          <work type="vocal">
             <identifier type="opus" n="75"/>
             <identifier type="number" n="6"/>
-            <title type="main" xml:id="work_00075_006_title">Mag auch die Liebe weinen,</title>
+            <title type="main" xml:id="work_00075_006_title">Mag auch die Liebe weinen</title>
             <composer>
                <persName/>
             </composer>
@@ -28,7 +28,7 @@
             </lyricist>
             <incip>
                <incipText>
-                  <p>Mag auch die Liebe weinen,</p>
+                  <p>Mag auch die Liebe weinen</p>
                </incipText>
             </incip>
             <creation/>

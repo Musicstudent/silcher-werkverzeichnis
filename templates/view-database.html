@@ -25,8 +25,9 @@
         <link rel="stylesheet" type="text/css" href="http://localhost:8080/exist/apps/silcherWerkverzeichnis/resources/css/styles.css"/>
         <!-- Styles for leaflet map -->
         <link rel="stylesheet" type="text/css" href="http://localhost:8080/exist/apps/silcherWerkverzeichnis/resources/css/map-styles.css"/>
-        <!-- Main custom JS file -->
+        <!-- Custom JS files -->
         <script defer="true" src="http://localhost:8080/exist/apps/silcherWerkverzeichnis/resources/js/script.js"/>
+        <script defer="true" type="module" src="http://localhost:8080/exist/apps/silcherWerkverzeichnis/resources/js/verovioApp.js"/>
     </head>
 
     <body lang="de" class="d-flex flex-column h-100">
@@ -40,21 +41,4 @@
             </div>
         </div>
     </body>
-    
-    <!-- Verovio-Viewer, in welchem der Notentext gerendert wird
-         (Ich weiß nicht, wie man den Code auslagern kann => Error: "Cannot use import statement outside a module") -->
-    <script type="module">
-    
-     import 'https://www.verovio.org/javascript/app/verovio-app.js';
-    
-        // Create the app - here with an empty option object
-        const app = new Verovio.App(document.getElementById("app"), {defaultZoom: 3})
-        const url = window.location.href.split("/")
-        const work = url[url.length - 1]
-        const mei = `http://localhost:8080/exist/apps/silcherWerkverzeichnis/data/works/${work}.xml`
-        // Load a file (MEI or MusicXML)
-        fetch(mei)
-            .then(response =&gt; response.text())
-            .then(text =&gt; app.loadData(text))
-    </script>
 </html>

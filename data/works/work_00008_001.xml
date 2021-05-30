@@ -8,7 +8,10 @@
          </pubStmt>
          <sourceDesc>
             <source>
-               <bibl/>
+                <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="4" to="4"/>
+                </bibl>
             </source>
          </sourceDesc>
       </fileDesc>
@@ -18,14 +21,17 @@
             <identifier type="number" n="1"/>
             <title type="main" xml:id="work_00008_001_title">Aennchen von Tharau</title>
             <composer>
-               <persName/>
+               <persName auth="pers_00273"/>
             </composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
             <lyricist>
-               <persName/>
+               <persName auth="pers_00054"/>
             </lyricist>
+            <contributor type="translator">
+                <persName auth="pers_00109"/>
+            </contributor>
             <incip>
                <incipText>
                   <p>Aennchen von Tharau</p>
@@ -38,12 +44,12 @@
                      <date/>
                   </event>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1827-00-00"/>
                   </event>
                </eventList>
             </history>
             <langUsage>
-               <language/>
+               <language xml:id="de">Deutsch</language>
             </langUsage>
             <perfMedium>
                <perfResList>

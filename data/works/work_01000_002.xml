@@ -2409,7 +2409,7 @@
                         </div>
                     </div>
                     <div type="textTemplate">
-                        <p>Textdichter: Friedrich von Matthisson; genaue Vorlage unbekannt.</p>
+                        <p>Textdichter: <persName auth="pers_00203">Friedrich von Matthisson</persName>; genaue Vorlage unbekannt.</p>
                     </div>
                     <div type="otherSettings">
                         <list form="simple">

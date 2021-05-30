@@ -1,6 +1,6 @@
 <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/silcherWerkverzeichnis/modules" version="1" owner="admin" group="dba" mode="775" created="2020-12-03T14:39:50.794Z">
     <acl entries="0" version="1"/>
-    <resource type="BinaryResource" name="app.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-12-03T15:13:14.04Z" modified="2021-04-15T19:08:29.422Z" filename="app.xql" mimetype="application/xquery">
+    <resource type="BinaryResource" name="app.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-12-03T15:13:14.04Z" modified="2021-05-30T20:53:31.731Z" filename="app.xql" mimetype="application/xquery">
         <acl entries="0" version="1"/>
     </resource>
     <resource type="BinaryResource" name="config.xqm" skip="no" owner="admin" group="dba" mode="755" created="2020-12-03T15:04:05.824Z" modified="2020-12-03T15:31:50.675Z" filename="config.xqm" mimetype="application/xquery">

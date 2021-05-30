@@ -8,7 +8,10 @@
          </pubStmt>
          <sourceDesc>
             <source>
-               <bibl/>
+               <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="15" to="15"/>
+                </bibl>
             </source>
          </sourceDesc>
       </fileDesc>
@@ -18,13 +21,13 @@
             <identifier type="number" n="19"/>
             <title type="main" xml:id="work_00017_019_title">Dankt dem Herrn für alle Freuden</title>
             <composer>
-               <persName/>
+               <persName auth="pers_00273"/>
             </composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
             <lyricist>
-               <persName/>
+               <persName>Xaver / Honolka</persName>
             </lyricist>
             <incip>
                <incipText>
@@ -38,7 +41,7 @@
                      <date/>
                   </event>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1833-00-00"/>
                   </event>
                </eventList>
             </history>

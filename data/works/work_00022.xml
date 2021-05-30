@@ -13,9 +13,9 @@
          </sourceDesc>
       </fileDesc>
       <workList>
-         <work type="vocal collection">
+         <work type="vocal song mixed-choir collection">
             <identifier type="opus" n="22"/>
-            <title type="main" xml:id="work_00022_title"/>
+            <title type="main" xml:id="work_00022_title">Volksliedsätze für 1-2 Singstimmen mit Klavier oder für gemischten Chor, Bd. 1</title>
             <composer>
                <persName/>
             </composer>
@@ -27,7 +27,7 @@
             <history>
                <eventList>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1835-00-00"/>
                   </event>
                </eventList>
             </history>

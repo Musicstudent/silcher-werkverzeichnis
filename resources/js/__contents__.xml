@@ -3,7 +3,10 @@
     <resource type="BinaryResource" name="Leaflet.MakiMarkers.js" skip="no" owner="admin" group="dba" mode="644" created="2020-12-26T22:15:46.406Z" modified="2020-12-26T22:15:46.406Z" filename="Leaflet.MakiMarkers.js" mimetype="application/javascript">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="BinaryResource" name="script.js" skip="no" owner="admin" group="dba" mode="644" created="2020-12-26T15:36:53.358Z" modified="2021-04-15T20:08:34.766Z" filename="script.js" mimetype="application/javascript">
+    <resource type="BinaryResource" name="verovioApp.js" skip="no" owner="admin" group="dba" mode="644" created="2021-05-30T18:55:14.558Z" modified="2021-05-30T19:00:58.265Z" filename="verovioApp.js" mimetype="application/javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="script.js" skip="no" owner="admin" group="dba" mode="644" created="2020-12-26T15:36:53.358Z" modified="2021-05-30T21:10:15.222Z" filename="script.js" mimetype="application/javascript">
         <acl entries="0" version="1"/>
     </resource>
     <resource type="BinaryResource" name="viewer.js" skip="no" owner="admin" group="dba" mode="644" created="2021-03-20T12:02:00.218Z" modified="2021-04-07T15:52:20.488Z" filename="viewer.js" mimetype="application/javascript">

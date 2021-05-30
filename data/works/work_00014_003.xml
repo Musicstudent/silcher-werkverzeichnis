@@ -8,7 +8,10 @@
          </pubStmt>
          <sourceDesc>
             <source>
-               <bibl/>
+               <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="132" to="132"/>
+                </bibl>
             </source>
          </sourceDesc>
       </fileDesc>
@@ -17,15 +20,11 @@
             <identifier type="opus" n="14"/>
             <identifier type="number" n="3"/>
             <title type="main" xml:id="work_00014_003_title">Liebesscherz</title>
-            <composer>
-               <persName/>
-            </composer>
+            <composer>Schwäbisches Volkslied</composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
-            <lyricist>
-               <persName/>
-            </lyricist>
+            <lyricist>Schwäbisches Volkslied</lyricist>
             <incip>
                <incipText>
                   <p>Wo e klein’s Hüttle steht</p>
@@ -38,7 +37,7 @@
                      <date/>
                   </event>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1831-00-00"/>
                   </event>
                </eventList>
             </history>

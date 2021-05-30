@@ -8,7 +8,10 @@
          </pubStmt>
          <sourceDesc>
             <source>
-               <bibl/>
+               <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="70" to="70"/>
+                </bibl>
             </source>
          </sourceDesc>
       </fileDesc>
@@ -18,13 +21,13 @@
             <identifier type="number" n="2"/>
             <title type="main" xml:id="work_00014_002_title">Frühling</title>
             <composer>
-               <persName/>
+               <persName auth="pers_00273"/>
             </composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
             <lyricist>
-               <persName/>
+               <persName auth="pers_00002"/>
             </lyricist>
             <incip>
                <incipText>
@@ -38,7 +41,7 @@
                      <date/>
                   </event>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1831-00-00"/>
                   </event>
                </eventList>
             </history>

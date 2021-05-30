@@ -8,7 +8,10 @@
          </pubStmt>
          <sourceDesc>
             <source>
-               <bibl/>
+               <bibl type="monogr">
+                    <ref target="bibl_0001"/>
+                    <biblScope from="103" to="103"/>
+                </bibl>
             </source>
          </sourceDesc>
       </fileDesc>
@@ -18,10 +21,10 @@
             <identifier type="number" n="4"/>
             <title type="main" xml:id="work_00010_004_title">Die Sabbatfeier</title>
             <composer>
-               <persName/>
+               <persName auth="pers_00273"/>
             </composer>
             <arranger>
-               <persName/>
+               <persName auth="pers_00273"/>
             </arranger>
             <lyricist>
                <persName/>
@@ -38,7 +41,7 @@
                      <date/>
                   </event>
                   <event type="publication">
-                     <date/>
+                     <date isodate="1827-00-00"/>
                   </event>
                </eventList>
             </history>
