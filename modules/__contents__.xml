@@ -1,15 +1,15 @@
 <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/silcherWerkverzeichnis/modules" version="1" owner="admin" group="dba" mode="775" created="2020-12-03T14:39:50.794Z">
     <acl entries="0" version="1"/>
-    <resource type="BinaryResource" name="app.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-12-03T15:13:14.04Z" modified="2021-05-30T20:53:31.731Z" filename="app.xql" mimetype="application/xquery">
+    <resource type="BinaryResource" name="shared.xqm" skip="no" owner="admin" group="dba" mode="755" created="2021-03-01T19:30:09.1Z" modified="2021-09-08T10:55:17.239Z" filename="shared.xqm" mimetype="application/xquery">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="BinaryResource" name="config.xqm" skip="no" owner="admin" group="dba" mode="755" created="2020-12-03T15:04:05.824Z" modified="2020-12-03T15:31:50.675Z" filename="config.xqm" mimetype="application/xquery">
+    <resource type="BinaryResource" name="view.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-12-03T15:06:32.405Z" modified="2021-09-08T10:55:32.641Z" filename="view.xql" mimetype="application/xquery">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="BinaryResource" name="view.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-12-03T15:06:32.405Z" modified="2020-12-03T15:32:09.269Z" filename="view.xql" mimetype="application/xquery">
+    <resource type="BinaryResource" name="app.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-12-03T15:13:14.04Z" modified="2021-09-08T10:56:51.433Z" filename="app.xql" mimetype="application/xquery">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="BinaryResource" name="shared.xqm" skip="no" owner="admin" group="dba" mode="755" created="2021-03-01T19:30:09.1Z" modified="2021-04-15T00:28:27.264Z" filename="shared.xqm" mimetype="application/xquery">
+    <resource type="BinaryResource" name="config.xqm" skip="no" owner="admin" group="dba" mode="755" created="2020-12-03T15:04:05.824Z" modified="2021-09-08T10:57:26.817Z" filename="config.xqm" mimetype="application/xquery">
         <acl entries="0" version="1"/>
     </resource>
 </collection>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Introductory Text</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>unpublished</p>
+            </publicationStmt>
+            <sourceDesc/>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="intro-text">
+                <head>Friedrich Silcher (1789–1860)</head>
+                <p>
+                    Als Sohn eines Schulmeisters begann Friedrich Silcher seine Karriere als Lehrgehilfe in Schorndorf und Fellbach, wo er eine
+                    musikalische Ausbildung unter dem Organisten Nikolaus Ferdinand Auberlen genoss.
+                    Während seiner Tätigkeit als Hauslehrer und Leiter einer Mädchenschule in Ludwigsburg wurde er mit den pädagogischen
+                    Ideen Pestalozzis vertraut. Außerdem konnte er hier seine musikalischen Studien vertiefen und erhielt Unterricht in
+                    Klavier und Komposition von <persName key="pers_00154">Conradin Kreutzer</persName> und <persName key="pers_00361">Johann Nepomuk Hummel</persName>. Nach einem zweijährigen Aufenthalt als Musiklehrer
+                    in Stuttgart wurde Silcher auf Empfehlung des befreundeten Pädagogen <persName key="pers_00022">Jonathan Friedrich Bahnmaier</persName> im Jahr 1817 als
+                    Universitätsmusikdirektor nach Tübingen berufen.
+                </p>
+                <p>
+                    Seine Aufgaben dort waren vielfältig: Als Leiter zweier Chöre, des <em>Oratorienvereins</em> und der 1829 gegründeten
+                    <em>Akademischen Liedertafel</em>, veranstaltete er regelmäßig Konzerte und arrangierte Volkslieder für den Chorgebrauch
+                    oder arbeitete kirchenmusikalische Werke so um, dass sie auch von gering besetzten Chören in der Kirche, der Schule oder
+                    der Familie gesungen werden konnten. Als Kantor am Evangelischen Stift und Katholischen Konvikt in Tübingen war er für die
+                    musikalische Ausbildung der Theologiestudenten verantwortlich. Nebenbei erteilte er privat Klavier- und Gesangsunterricht. 
+                    Zudem begann Sicher nach seiner Benennung zum Musikdirektor in Tübingen, aus- und inländische Volkslieder zu sammeln und zu
+                    bearbeiten. Er überarbeitete diese ganz in seinem pädagogoischen Sinne mit dem Ziel, dass die Lieder auch vom einfachen Volk
+                    gesungen werden konnten und somit ein Bildungsmittel für alle Volksschichten darstellen.
+                </p>
+                <p>
+                    Silchers kompositorischer Nachlass umfasst über 500 Eigenkompositionen, darunter befinden noch heute bekannte Melodien wie
+                    <em>Ännchen von Tharau</em> oder <em>Alle Jahre wieder</em>. Den größten Teil seiner Kompositionen nehmen Volksliedvertonungen
+                    ein, mit denen er sowohl das seinerzeit aufblühende Chorwesen als auch das häusliche Musizieren mit Klavier bedachte.
+                    In seiner Funktion als Kirchenmusiker erstellte er Ausgaben von Chorälen, Kirchenliedern und Choralvorspielen für Orgel.
+                    Im Bereich der Instrumentalmusik finden sich vor allem Klavierwerke und zwei Ouvertüren für Orchester.
+                    Einige seiner Vertonungen von
+                    Kinderliedern fanden durch die Übersetzung ins Englische durch <persName key="pers_00277">Francis Soper</persName> auch Einzug in den englischen Sprachraum.
+                    Das musikalische Gesamtwerk Friedrich Silchers umfasst über 1000 Kompositionen und Bearbeitungen, etwa die Hälfte davon wurde
+                    in den 77 mit Opus-Nummern versehenen Werken veröffentlicht, welche hauptsächlich Sammlungen von Liedern und Chorwerken umfassen.
+                </p>
+                <p>Neuausgaben ausgewählter Werke Silchers wurden von den Verlagen Bärenreiter, Carus und Nagel herausgegeben.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

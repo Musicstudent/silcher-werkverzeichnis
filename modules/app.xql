@@ -1,10 +1,10 @@
 xquery version "3.1" encoding "UTF-8";
 
-module namespace app="http://jannikBriefe.de/templates";
+module namespace app="http://werkVerzeichnis.de/templates";
 
 import module namespace templates="http://exist-db.org/xquery/templates";
-import module namespace config="http://jannikBriefe.de/config" at "config.xqm";
-import module namespace shared="http://jannikBriefe.de/shared" at "shared.xqm";
+import module namespace config="http://werkVerzeichnis.de/config" at "config.xqm";
+import module namespace shared="http://werkVerzeichnis.de/shared" at "shared.xqm";
 import module namespace kwic="http://exist-db.org/xquery/kwic";
 import module namespace http="http://expath.org/ns/http-client";
 
@@ -717,4 +717,9 @@ declare %templates:wrap function app:dropdown($node as node(), $model as map(*))
             <option value="publisher"><span>Verleger/in</span><span> ({count($persons[contains(@role, 'publisher')])})</span></option>
             <option value="dedicatee"><span>Widmungsträger/in</span><span> ({count($persons[contains(@role, 'dedicatee')])})</span></option>
         </select>
+};
+
+declare %templates:wrap function app:introText($node as node(), $model as map(*)) {
+    let $introText := doc("/db/apps/silcherWerkverzeichnis/data/texts/intro-text.xml")//tei:div[@type = 'intro-text']
+    return transform:transform($introText, doc("/db/apps/silcherWerkverzeichnis/resources/xslt/tei.xsl"), ())
 };

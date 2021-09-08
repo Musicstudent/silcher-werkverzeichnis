@@ -4,4 +4,5 @@
     <subcollection name="persons" filename="persons"/>
     <subcollection name="personsOld_19entries" filename="personsOld_19entries"/>
     <subcollection name="worksOld_30entries" filename="worksOld_30entries"/>
+    <subcollection name="texts" filename="texts"/>
 </collection>

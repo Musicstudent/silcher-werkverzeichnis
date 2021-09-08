@@ -1,6 +1,9 @@
 <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/silcherWerkverzeichnis/resources/xslt" version="1" owner="admin" group="dba" mode="755" created="2021-01-18T21:26:22.385Z">
     <acl entries="0" version="1"/>
-    <resource type="XMLResource" name="styles.xsl" skip="no" owner="admin" group="dba" mode="644" created="2021-04-09T16:16:36.568Z" modified="2021-04-09T16:20:08.344Z" filename="styles.xsl" mimetype="application/xml">
+    <resource type="XMLResource" name="styles.xsl" skip="no" owner="admin" group="dba" mode="644" created="2021-04-09T16:16:36.568Z" modified="2021-09-07T14:16:41.531Z" filename="styles.xsl" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tei.xsl" skip="no" owner="admin" group="dba" mode="644" created="2021-09-07T14:17:47.142Z" modified="2021-09-07T14:23:31.186Z" filename="tei.xsl" mimetype="application/xml">
         <acl entries="0" version="1"/>
     </resource>
 </collection>

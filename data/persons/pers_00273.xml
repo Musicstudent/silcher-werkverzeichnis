@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pers_00273" xml:lang="de">
-   <persName>
-      <forename sort="1">Friedrich</forename>
-      <surname sort="2">Silcher</surname>
-   </persName>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="pers_00273" xml:lang="de" role="-">
+    <persName>
+        <forename sort="1" type="unused">Philipp</forename>
+        <forename sort="2">Friedrich</forename>
+        <surname sort="3">Silcher</surname>
+    </persName>
+    <idno type="GND" xml:base="http://d-nb.info/gnd/">118614339</idno>
 </person>

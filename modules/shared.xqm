@@ -1,9 +1,9 @@
 xquery version "3.1" encoding "UTF-8";
 
-module namespace shared="http://jannikBriefe.de/shared";
+module namespace shared="http://werkVerzeichnis.de/shared";
 
 import module namespace app="http://exist-db.org/xquery/templates";
-import module namespace config="http://jannikBriefe.de/config" at "config.xqm";
+import module namespace config="http://werkVerzeichnis.de/config" at "config.xqm";
 
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace mei="http://www.music-encoding.org/ns/mei";

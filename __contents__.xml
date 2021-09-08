@@ -1,6 +1,6 @@
 <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/silcherWerkverzeichnis" version="1" owner="admin" group="dba" mode="775" created="2020-12-03T14:39:35.285Z">
     <acl entries="0" version="1"/>
-    <resource type="XMLResource" name="registryWorks.html" skip="no" owner="admin" group="dba" mode="644" created="2020-12-07T11:18:56.971Z" modified="2021-05-30T18:52:16.719Z" filename="registryWorks.html" mimetype="application/xhtml+xml">
+    <resource type="XMLResource" name="registryWorks.html" skip="no" owner="admin" group="dba" mode="644" created="2020-12-07T11:18:56.971Z" modified="2021-09-08T16:31:35.484Z" filename="registryWorks.html" mimetype="application/xhtml+xml">
         <acl entries="0" version="1"/>
     </resource>
     <resource type="XMLResource" name="registryPersons.html" skip="no" owner="admin" group="dba" mode="644" created="2020-12-07T13:37:17.94Z" modified="2021-04-15T19:48:57.238Z" filename="registryPersons.html" mimetype="application/xhtml+xml">
@@ -36,7 +36,7 @@
     <resource type="XMLResource" name="searchPerson.html" skip="no" owner="admin" group="dba" mode="644" created="2021-02-19T09:31:22.133Z" modified="2021-03-15T14:23:20.76Z" filename="searchPerson.html" mimetype="application/xhtml+xml">
         <acl entries="0" version="1"/>
     </resource>
-    <resource type="XMLResource" name="index.html" skip="no" owner="admin" group="dba" mode="664" created="2020-12-03T14:39:50.749Z" modified="2021-03-31T13:16:44.259Z" filename="index.html" mimetype="text/html">
+    <resource type="XMLResource" name="index.html" skip="no" owner="admin" group="dba" mode="664" created="2020-12-03T14:39:50.749Z" modified="2021-09-07T14:22:01.688Z" filename="index.html" mimetype="text/html">
         <acl entries="0" version="1"/>
     </resource>
     <resource type="XMLResource" name="build.xml" skip="no" owner="admin" group="dba" mode="664" created="2020-12-03T14:39:50.801Z" modified="2020-12-03T14:39:51.036Z" filename="build.xml" mimetype="application/xml">
